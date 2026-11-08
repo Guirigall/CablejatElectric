@@ -1,0 +1,27 @@
+{
+  "repository": "CablejatElectric",
+  "sourceCommit": "d72a7d9236f4a79f18e3bd475d97bab7e5489e12",
+  "url": "https://guirigall.github.io/CablejatElectric/",
+  "screenshots": [
+    {
+      "name": "desktop",
+      "viewport": {
+        "width": 1440,
+        "height": 1050
+      },
+      "title": "Cablejat elèctric · Veler",
+      "pageErrors": []
+    },
+    {
+      "name": "mobile",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "title": "Cablejat elèctric · Veler",
+      "pageErrors": []
+    }
+  ],
+  "publishedStatus": null,
+  "publishedError": "Cannot read properties of undefined (reading 'get')"
+}

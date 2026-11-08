@@ -1,0 +1,635 @@
+0	Batería de servicios	House battery
+1	Banco 12 V · capacidad por definir	12 V bank · capacity to be defined
+2	Banco de servicios. El proyecto parte de dos bancos separados y negativo común en el lado de sistema del shunt. Química, BMS, capacidad y corriente de cortocircuito pendientes de confirmar.	House bank. The design uses two separate banks with a common negative on the system side of the shunt. Chemistry, BMS, capacity and short-circuit current remain to be confirmed.
+3	+ servicios	+ house
+4	− servicios	− house
+5	Fusible principal	Main fuse
+6	Protección en origen	Protection at the source
+7	Protege el conductor positivo. Seleccionar corriente, tensión DC y capacidad de corte según cable y batería; un seccionador no sustituye al fusible.	Protects the positive conductor. Select the current rating, DC voltage and interrupt capacity for the cable and battery; an isolator does not replace a fuse.
+8	entrada +	input +
+9	salida +	output +
+10	General de servicios	House main switch
+11	Abre / cierra el cuadro	Opens / closes the panel supply
+12	Aísla el cuadro de servicios. Las derivaciones permanentes de sentina y carga siguen independientes, con protección propia. No es un conmutador para poner bancos distintos en paralelo.	Isolates the house panel. Permanent bilge and charging branches remain independent with their own protection. This is not a switch for paralleling different banks.
+13	Cuadro DC	DC panel
+14	Fusible / disyuntor por ramal	Fuse / breaker for each branch
+15	Distribuye el positivo. Cada ramal tiene protección e interruptor adecuados a su consumo y conductor. La barra de negativos está separada de las protecciones positivas.	Distributes positive power. Each branch has protection and a switch suited to its load and conductor. The negative busbar is separate from the positive protective devices.
+16	alimentación +	supply +
+17	salidas protegidas	protected outputs
+18	Shunt de servicios	House battery shunt
+20	Mide la corriente del banco de servicios. Solo el negativo del banco va a BATTERY MINUS; todos los retornos y cargadores van a SYSTEM MINUS. No es un fusible ni un relé.	Measures house bank current. Only the bank negative connects to BATTERY MINUS; all returns and chargers connect to SYSTEM MINUS. It is neither a fuse nor a relay.
+23	Vbatt+ con fusible	Vbatt+ with fuse
+24	Aux opcional	Optional Aux
+25	Barra de negativos	Negative busbar
+26	Retorno DC · lado de sistema	DC return · system side
+27	Punto de retorno de todos los servicios y cargadores. También referencia el negativo del banco de motor. No usar el casco como conductor de retorno. El PE de 230 V tiene una función distinta.	Return point for all house loads and chargers. Also provides the engine bank negative reference. Do not use the hull as a return conductor. The 230 V protective earth serves a different purpose.
+28	retornos de servicios	house returns
+29	referencia del motor	engine reference
+30	Luces de navegación	Navigation lights
+31	Posición · fondeo · cubierta	Running · anchor · deck
+32	Circuitos independientes de luces de posición y fondeo según el barco. Pasacubiertas estanco; conector marino desmontable al pie del mástil con suficientes contactos.	Separate running and anchor light circuits to suit the boat. Watertight deck gland and a removable marine connector at the mast base with enough contacts.
+33	+ posición	+ running lights
+34	+ fondeo	+ anchor light
+35	− retorno	− return
+36	Iluminación interior	Interior lighting
+37	Camarotes · bañera · focos	Cabins · cockpit · floodlights
+38	Interruptores locales después de la protección del ramal. Dimensionar cada derivación. Conectores con enclavamiento en zonas secas y uniones selladas en el exterior.	Local switches downstream of branch protection. Size each branch. Use locking connectors in dry areas and sealed joints outdoors.
+39	+ después del interruptor	+ after switch
+40	Batería de motor	Engine battery
+41	Banco de arranque separado	Separate starter bank
+42	Banco dedicado al arranque. La conexión de potencia y su protección requieren el manual del motor y la norma aplicable; no se dimensionan con el cálculo de servicios.	Dedicated starter bank. Starter power wiring and protection require the engine manual and applicable standard; the house circuit calculator is not suitable for sizing them.
+45	Motor y alternador	Engine and alternator
+46	Arranque · B+ · retorno	Starting · B+ · return
+47	El motor de arranque tiene su propio contacto de potencia. El alternador carga primero el banco de motor; no abrir la conexión de batería con el motor en marcha. Referencia funcional: confirmar el cableado del fabricante.	The starter motor has its own power contact. The alternator charges the engine bank first; do not disconnect its battery while the engine is running. Functional reference: confirm the manufacturer's wiring.
+48	B+ alternador	alternator B+
+49	arranque +	starter +
+50	bloque / retorno −	block / return −
+51	Cargador DC–DC	DC–DC charger
+52	Motor → servicios	Engine → house
+53	Arquitectura elegida: DC–DC en lugar de relé de carga. Adaptarlo al alternador y a la química de servicios. Requiere protección en ambos extremos alimentados y señal de habilitación según modelo.	Selected architecture: DC–DC rather than a charge relay. Match it to the alternator and house battery chemistry. Protect both battery-fed ends and provide an enable signal as required by the model.
+56	enable según modelo	enable as specified for the model
+57	Nevera	Fridge
+58	Ramal dedicado	Dedicated branch
+59	Consumo y arranque del compresor según modelo. La caída de tensión puede activar el corte por baja tensión. No se añade un relé genérico si el controlador del fabricante ya gobierna el compresor.	Compressor running and starting load depend on the model. Voltage drop may trigger low-voltage shutdown. No generic relay is added if the manufacturer's controller already switches the compressor.
+60	+ controlador	+ controller
+61	− controlador	− controller
+62	Placas solares	Solar panels
+63	PV · tensión según configuración	PV · voltage depends on configuration
+64	La tensión PV puede superar 12 V. Verificar Voc con frío y límites del regulador. Protección de strings solo cuando proceda; conectores solares compatibles de la misma familia y fabricante.	PV voltage may exceed 12 V. Check cold-weather Voc and controller limits. Fit string protection where the design requires it; use compatible solar connectors from the same family and manufacturer.
+67	Regulador MPPT	MPPT controller
+68	PV → banco de servicios	PV → house bank
+69	Salida al banco de servicios mediante fusible dedicado; retorno al lado de sistema del shunt. Orden de conexión/desconexión y puesta a tierra del marco según el manual del regulador.	Output to the house bank through a dedicated fuse; return to the system side of the shunt. Follow the controller manual for connection/disconnection order and frame earthing.
+72	Bomba de agua dulce	Freshwater pump
+73	Presostato propio	Built-in pressure switch
+74	Ramal protegido y mando de cuadro. El presostato puede conmutar la bomba si soporta su corriente de arranque. Añadir relé solo si lo exige el conjunto.	Protected branch and panel switch. The pressure switch may operate the pump if rated for its starting current. Add a relay only if the assembly requires one.
+75	+ presostato	+ pressure switch
+76	Alimentación electrónica	Electronics power supply
+77	VHF · red · AIS · plotter	VHF · network · AIS · chartplotter
+78	Cuatro ramales separados y protegidos. La alimentación de VHF y AIS no llega por el cable de antena ni necesariamente por NMEA 2000. Datos detallados en la pestaña correspondiente.	Four separate protected branches. VHF and AIS power does not come through the antenna cable or necessarily through NMEA 2000. See the data tab for network details.
+80	+ red	+ network
+83	− retornos	− returns
+84	Fusible sentina	Bilge fuse
+85	Derivación permanente	Permanent branch
+86	Derivación antes del general de servicios. Fusible según bomba y sección. Puede seguir con tensión aunque el cuadro esté apagado.	Branch upstream of the house main switch. Fuse to suit the pump and conductor. May remain live even when the panel is off.
+87	entrada + permanente	permanent + input
+88	salida + protegida	protected + output
+89	Control sentina	Bilge control
+91	Circuito de tres hilos para bomba automática Rule compatible. AUTO alimenta el sensor interno; MANUAL lo puentea. No unir ambas entradas positivas. Una bomba de dos hilos requiere otro esquema con flotador externo.	Three-wire circuit for a compatible automatic Rule pump. AUTO powers the internal sensor; MANUAL overrides it. Do not join the positive inputs. A two-wire pump needs a different circuit with an external float switch.
+92	común +	common +
+93	salida AUTO	AUTO output
+94	salida MANUAL	MANUAL output
+95	Bomba de sentina	Bilge pump
+96	Automática · tres hilos	Automatic · three wires
+97	Ejemplo Rule de tres hilos: marrón automático, marrón/blanco manual, negro retorno. Uniones selladas fuera de la zona sumergida. El fusible depende del modelo exacto.	Three-wire Rule example: brown automatic, brown/white manual, black return. Seal joints outside the submerged area. Fuse rating depends on the exact model.
+98	marrón AUTO +	brown AUTO +
+99	marrón/blanco MANUAL +	brown/white MANUAL +
+100	negro −	black −
+101	Molinete de ancla	Anchor windlass
+102	Contactor inversor dedicado	Dedicated reversing contactor
+103	El mando no debe llevar la corriente del motor. Disyuntor, seccionador y contactor inversor dedicados; cableado de dos o tres bornes según motor. Fusible y cable según placa y manual.	The control switch must not carry motor current. Use a dedicated breaker, isolator and reversing contactor; two- or three-terminal wiring depends on the motor. Size fuse and cable from its nameplate and manual.
+104	entrada de potencia protegida	protected power input
+105	mando UP / DOWN	UP / DOWN control
+106	retorno −	return −
+107	USB · música	USB · music
+108	Convertidor 12 → 5 V regulado	Regulated 12 → 5 V converter
+109	Tomas USB y equipo de música con ramales protegidos. La Raspberry y las dos webcams tienen su propio circuito en este esquema. Una toma USB no recibe 12 V directamente.	USB outlets and stereo on protected branches. The Raspberry Pi and two webcams have a dedicated circuit in this diagram. A USB socket must not receive 12 V directly.
+110	+ 12 V protegido	protected + 12 V
+111	5 V / USB según equipo	5 V / USB to suit equipment
+112	Piloto automático	Autopilot
+113	Potencia y datos separados	Separate power and data
+114	El actuador conecta a la unidad de control, con ramal de potencia y sensor de rumbo propios. La red de datos no alimenta el motor del piloto. Modelo y consumo pendientes.	The actuator connects to the control unit with a dedicated power branch and heading sensor. The data network does not power the autopilot motor. Model and load remain to be defined.
+115	+ unidad de control	+ control unit
+116	red de datos	data network
+117	Fusible alarma de gas	Gas alarm fuse
+118	Derivación permanente protegida	Protected permanent branch
+119	Alimentación de la central de gas antes del general de servicios, con fusible propio según modelo. La alarma sigue disponible con el cuadro apagado; aislamiento de mantenimiento según fabricante.	Gas alarm supply upstream of the house main switch, with its own model-specific fuse. The alarm remains available when the panel is off; maintenance isolation follows the manufacturer.
+121	+ central protegido	protected alarm +
+122	Central alarma de gas	Gas alarm control unit
+123	GLP · avisador autónomo	LPG · independent sounder
+124	Central marina para GLP con avisador y sonda compatibles. No depende de Raspberry ni de internet. Confirmar modelo, fusible y prueba en el manual; una alarma GLP no sustituye a una de CO.	Marine LPG alarm with its own sounder and compatible probe. Independent of the Raspberry Pi and internet. Confirm model, fuse and test procedure in the manual; an LPG alarm does not replace a CO alarm.
+126	sonda GLP del fabricante	manufacturer's LPG probe
+127	avisador integrado	built-in sounder
+128	Sensor de gas GLP	LPG gas sensor
+129	Sonda remota de la central	Remote alarm probe
+130	Sonda específica para el gas a detectar. Ubicación, ventilación, humedad y pruebas según fabricante. No conectar directamente a 12 V ni GPIO; no añadir electroválvula sin validar la central.	Probe specific to the gas being detected. Follow the manufacturer for location, ventilation, humidity and testing. Do not connect directly to 12 V or GPIO; do not add a solenoid valve without verifying the alarm unit.
+131	arnés original hacia central	original harness to alarm unit
+132	Convertidor para Pi	Pi power converter
+133	12 V → 5 V regulados	12 V → regulated 5 V
+134	Convertidor DC–DC dedicado a Raspberry y hub, con salidas protegidas adecuadas. Verificar tensión, corriente y negociación USB-C del modelo de Pi. En Pi 5, la potencia USB depende de la fuente; nunca aplicar 12 V a USB ni GPIO.	Dedicated DC–DC converter for the Pi and hub with suitable protected outputs. Check the Pi model's voltage, current and USB-C negotiation. Pi 5 peripheral power depends on its supply; never apply 12 V to USB or GPIO.
+137	USB-C adecuado al modelo	USB-C suitable for the model
+139	Ordenador de a bordo · 5 V	Onboard computer · 5 V
+140	Alimentación USB-C según modelo y datos USB al hub. Dos cámaras pueden superar el presupuesto USB de la placa: se representa un hub autoalimentado compatible. Apagar el sistema operativo antes de cortar corriente.	Model-specific USB-C supply and USB data to the hub. Two cameras may exceed the board's USB power budget, so a compatible self-powered hub is shown. Shut down the operating system before disconnecting power.
+141	USB-C alimentación	USB-C power
+142	USB ascendente hacia hub	USB upstream to hub
+143	Hub USB autoalimentado	Self-powered USB hub
+144	5 V propios · datos a la Pi	Own 5 V supply · data to Pi
+145	Hub USB con alimentación propia de 5 V y sin realimentar el puerto ascendente. Aporta energía y datos a ambas webcams. Verificar consumo total y ancho de banda. No es un inyector PoE.	USB hub with its own 5 V supply and no upstream backfeeding. Supplies power and data to both webcams. Check total load and bandwidth. This is not a PoE injector.
+146	5 V entrada	5 V input
+147	USB ascendente → Raspberry	USB upstream → Raspberry Pi
+148	USB descendente 1	USB downstream 1
+149	USB descendente 2	USB downstream 2
+150	Webcam 1 · bañera	Webcam 1 · cockpit
+151	USB · energía y vídeo	USB · power and video
+152	Webcam USB de referencia conectada al hub, que aporta datos y energía. Verificar compatibilidad, longitud USB y protección ambiental en exterior. No es una cámara IP/PoE.	Example USB webcam connected to the hub for data and power. Check compatibility, USB cable length and weather protection for outdoor use. This is not an IP/PoE camera.
+153	USB hacia hub	USB to hub
+154	Webcam 2 · interior	Webcam 2 · cabin
+155	Segunda webcam USB independiente en el mismo hub. El diagrama documenta el cableado; esta web no activa cámaras reales ni muestra sus imágenes. Elegir cámara y hub compatibles con Raspberry.	Second independent USB webcam on the same hub. This diagram documents wiring; the website does not activate real cameras or display their footage. Choose a camera and hub compatible with the Pi.
+156	Antena VHF / AIS	VHF / AIS antenna
+157	Radiofrecuencia · 50 Ω	Radio frequency · 50 Ω
+158	Antena marina adecuada para VHF/AIS. El conector depende de la antena: cable fijo, SO-239, N u otro. Elegir coaxial según pérdidas y longitud; no es coaxial TV de 75 Ω.	Marine antenna suitable for VHF/AIS frequencies. Its connector may be a fixed cable, SO-239, N or another type. Choose coax by total loss and length; do not use 75 Ω TV coax.
+159	puerto RF de antena	antenna RF port
+160	Paso de mástil / cubierta	Mast / deck entry
+161	Conexión estanca accesible	Accessible watertight connection
+162	Pasacubiertas con prensaestopas o unión RF estanca accesible. La unión añade pérdidas. Evitar entradas de agua y respetar el radio de curvatura del coaxial.	Deck gland or accessible watertight RF joint. Each joint adds loss. Prevent water ingress and respect the coaxial cable bend radius.
+163	coaxial entrada	coax input
+164	coaxial salida	coax output
+165	Splitter activo VHF/AIS	Active VHF/AIS splitter
+166	Compatible con transmisión AIS	AIS transmission compatible
+167	Solo para AIS externo con antena compartida. Necesita splitter diseñado para VHF y transceptor AIS, no divisor pasivo. Conectores y alimentación dependen del modelo.	Only for external AIS using a shared antenna. Requires a splitter designed for VHF and an AIS transceiver, not a passive divider. Connectors and power supply depend on the model.
+172	Emisora VHF DSC	DSC VHF radio
+173	Modelo configurable	Configurable model
+174	DSC necesita posición GNSS válida y configuración de la emisora. El i40 no es una fuente GPS. Ray53/63/73 llevan GNSS integrado; otras emisoras pueden necesitar GPS externo.	DSC needs a valid GNSS position and radio configuration. The i40 is not a GPS source. Ray53/63/73 have built-in GNSS; other radios may need an external GPS.
+175	RF antena	antenna RF
+176	NMEA según modelo	NMEA to suit model
+177	GNSS según modelo	GNSS to suit model
+178	AIS externo	External AIS
+179	Transceptor · equipo opcional	Transceiver · optional device
+180	Receptor y transceptor son distintos. Un transceptor AIS externo puede necesitar su propia antena GNSS. Alimentación y red separadas. No conectar NMEA 0183 y NMEA 2000 al mismo destino a la vez sin validar el manual.	A receiver and a transceiver are different devices. An external AIS transceiver may need its own GNSS antenna. Power and network connections are separate. Do not connect NMEA 0183 and NMEA 2000 to the same destination simultaneously without checking the manual.
+182	GNSS dedicado	Dedicated GNSS
+184	Fuente de posición GNSS	GNSS position source
+185	GPS externo en la red	External GPS on the network
+186	Fuente GNSS externa de referencia para la red. Puede sustituirse por una fuente compatible existente. No asumir que el GPS interno de la VHF exporta datos sin verificar modelo y PGN/sentencias.	External reference GNSS source for the network. An existing compatible source may replace it. Do not assume that a radio's internal GPS exports data without checking its model and PGNs/sentences.
+188	Transductores i40	i40 transducers
+190	El transductor conecta a los terminales específicos del i40, no a NMEA 2000. El manual indica terminales de pala de 1/8 de pulgada para reposición. Colores y funciones según transductor; consultar el mapa detallado.	Connect the transducer to the i40's specific terminals, not NMEA 2000. The manual specifies 1/8-inch replacement spade terminals. Colours and functions vary by transducer; consult the detailed mapping.
+191	cable original del transductor	original transducer cable
+193	SeaTalk 1 · instrumentación	SeaTalk 1 · instrumentation
+194	i40 Depth, Speed, Bidata o Wind. Puerto SeaTalk de tres contactos y terminales de transductor diferentes. No acepta SeaTalkng directamente ni muestra objetivos AIS o posición GPS.	i40 Depth, Speed, Bidata or Wind. Three-contact SeaTalk port and separate transducer terminals. Does not accept SeaTalkng directly or display AIS targets or GPS position.
+195	SeaTalk 1 · tres contactos	SeaTalk 1 · three contacts
+196	palas de transductor	transducer spade terminals
+197	Convertidor SeaTalk	SeaTalk converter
+198	E22158 · conversión activa	E22158 · active conversion
+199	Traduce datos compatibles entre SeaTalk 1 y SeaTalkng. No es un simple adaptador físico. En esta arquitectura la rama i40 se alimenta desde el convertidor; no añadir otra alimentación de 12 V.	Translates compatible data between SeaTalk 1 and SeaTalkng. Not merely a physical adapter. In this architecture the converter powers the i40 branch; do not add a second 12 V feed.
+200	amarillo: SeaTalk 1	yellow: SeaTalk 1
+201	blancos: spur	white: spur
+202	azules: backbone	blue: backbone
+204	Troncal con dos terminadores	Backbone with two terminators
+205	Una sola troncal lineal, ambos extremos terminados y equipos en derivaciones spur. Una inyección protegida de 12 V en este ejemplo. SeaTalkng y NMEA 2000 requieren el adaptador físico adecuado.	One linear backbone with both ends terminated and devices on spurs. One protected 12 V power injection in this example. SeaTalkng and NMEA 2000 require the appropriate physical adapter cable.
+206	backbone azul A	blue backbone A
+207	backbone azul B	blue backbone B
+208	spur blancos	white spurs
+209	Terminador A	Terminator A
+210	Extremo del backbone	Backbone end
+211	Una resistencia terminadora en cada extremo de la troncal. No confundir un tapón estanco con un terminador.	One terminating resistor at each end of the backbone. Do not confuse a blanking plug with a terminator.
+212	backbone azul	blue backbone
+213	Terminador B	Terminator B
+214	Otro extremo del backbone	Other backbone end
+215	Segundo y último terminador de la troncal. No instalar uno en cada instrumento.	The second and final backbone terminator. Do not fit one at every instrument.
+216	Plotter / pantalla	Chartplotter / display
+217	Visualiza AIS e instrumentos	Displays AIS and instruments
+218	Recibe datos compatibles: sonda/velocidad de los i40 y objetivos AIS de la fuente elegida. Visualización y PGN admitidos dependen del modelo. Alimentación propia.	Receives compatible network data: depth/speed from i40 instruments and AIS targets from the selected source. Display capabilities and supported PGNs depend on the model. Has its own power supply.
+220	Alimentación de red	Network power supply
+221	Ramal 12 V protegido único	Single protected 12 V branch
+222	Cable de alimentación SeaTalkng en una derivación blanca adecuada. VHF y plotter mantienen alimentación propia. Comprobar carga total/LEN y caída de tensión de la troncal.	SeaTalkng power cable on a suitable white spur. The radio and plotter retain their own power feeds. Check total load/LEN and backbone voltage drop.
+223	+ 12 V con fusible	+ 12 V through fuse
+225	spur de alimentación	power spur
+226	Cuadro 12 V · ramales	12 V panel · branches
+227	Alimentaciones + y − separadas	Separate + and − power feeds
+228	Enlace al cuadro de la pestaña 12 V. Cada equipo tiene positivo protegido y retorno a SYSTEM MINUS. Aquí una línea representa el par de alimentación, no un cable de datos.	Link to the panel in the 12 V tab. Each device has a protected positive and return to SYSTEM MINUS. Here one line represents a power pair, not a data cable.
+233	Pasarela NMEA 0183	NMEA 0183 gateway
+234	Conversión activa aislada	Isolated active conversion
+235	Para una VHF solo NMEA 0183. Salida TX+/TX− del emisor a entrada RX+/RX− de la radio. Confirmar velocidad y sentencias. La pasarela debe admitir posición GNSS; un adaptador físico no convierte protocolos.	For an NMEA 0183-only radio. Talker TX+/TX− connects to radio RX+/RX−. Confirm baud rate and sentences. The gateway must support GNSS position; a connector adapter does not convert protocols.
+238	alimentación según modelo	power supply to suit model
+239	Antena GNSS del AIS	AIS GNSS antenna
+240	Puerto diferente del VHF	Separate from the VHF port
+241	Si el transceptor AIS lo exige, antena GNSS dedicada activa/pasiva según manual. Conector TNC, BNC o SMA pendiente hasta definir AIS.	If required by the AIS transceiver, fit a dedicated active/passive GNSS antenna as specified. TNC, BNC or SMA remains to be confirmed once the AIS model is known.
+242	GNSS según AIS	GNSS to suit AIS
+243	Torreta del puerto	Shore power pedestal
+245	Toma de puerto y cable marino adecuados. Se representa una entrada IEC 60309 azul 2P+E como ejemplo; confirmar corriente nominal, entrada del barco y conectores reales.	Suitable shore outlet and marine cable. A blue IEC 60309 2P+E inlet is shown as an example; confirm current rating, vessel inlet and actual connectors.
+246	L · fase	L · live
+247	N · neutro	N · neutral
+248	PE · protección	PE · protective earth
+249	Entrada de puerto	Shore power inlet
+250	Conexión de a bordo	Vessel inlet connection
+251	Entrada marina compatible con el cable. IEC 60309 no es intercambiable con todos los sistemas náuticos. Retención mecánica y estanqueidad adecuadas.	Marine inlet compatible with the cable. IEC 60309 connectors are not interchangeable with every marine inlet system. Provide suitable mechanical retention and sealing.
+255	Protección general AC	Main AC protection
+256	Corte bipolar · diferencial	Double-pole isolation · RCD
+257	Protección diferencial y contra sobreintensidad adecuadas. Coordinar con tierra, cable y suministro. El botón de prueba comprueba el mecanismo, no certifica la instalación.	Suitable residual-current and overcurrent protection. Coordinate with the earthing system, cable and supply. The test button checks the mechanism; it does not certify the installation.
+258	L / N entrada	L / N input
+259	L / N salida	L / N output
+260	Cuadro de 230 V	230 V panel
+261	Protección por circuito	Protection per circuit
+262	Ramales separados a cargador, tomas y termo. El PE no pasa por fusible ni interruptor. No hay inversor para evitar representar una conmutación de fuentes no definida.	Separate branches to charger, outlets and water heater. PE is never fused or switched. No inverter is included, to avoid depicting an undefined source changeover.
+263	L / N protegidos	protected L / N
+264	barra PE separada	separate PE busbar
+265	Protección del primario	Primary protection
+266	Entrada de puerto · corte bipolar	Shore inlet · double-pole isolation
+267	Protección de cable y primario según transformador. Coordinar con corriente de entrada y soft-start; no sustituye al diferencial de salida.	Protect the cable and primary as specified for the transformer. Coordinate with input current and soft-start; this does not replace the output RCD.
+268	L / N al primario	L / N to primary
+269	Transformador de aislamiento	Isolation transformer
+270	Primario · PE de puerto separado	Primary · separate shore PE
+271	Transformador marino con bobinados separados, no autotransformador. Interrumpe el camino galvánico del puerto. No estabiliza ni garantiza protección contra transitorios: estudiar SPD coordinado. El soft-start limita su propia corriente de encendido.	Marine transformer with separate windings, not an autotransformer. Interrupts the shore galvanic path. It neither regulates voltage nor guarantees transient protection: assess a coordinated SPD. Soft-start limits its own inrush current.
+272	INPUT L / N / PE puerto	INPUT L / N / shore PE
+273	acoplamiento magnético al secundario	magnetic coupling to secondary
+274	Secundario del trafo	Transformer secondary
+275	Fuente aislada · L′ / N′ / PE a bordo	Isolated source · L′ / N′ / vessel PE
+276	Bloque funcional de salida del mismo transformador, no otro aparato. En esta fuente fija, N′ se referencia al PE de a bordo del lado de fuente antes del diferencial, según manual. No puentear PE de puerto y barco a flote. Carcasa a PE de a bordo según fabricante; en tierra/varadero seguir el procedimiento específico.	Functional output terminal block of the same transformer, not another device. In this fixed-source architecture, N′ is referenced to vessel PE on the source side before the RCD, as specified. Do not bridge shore and vessel PE afloat. Connect the enclosure to vessel PE as specified; follow the specific procedure ashore.
+277	OUTPUT L′ / N′ / PE a bordo	OUTPUT L′ / N′ / vessel PE
+278	unión de fuente N′–PE antes del diferencial	source N′–PE bond before RCD
+279	carcasa → PE a bordo según manual	enclosure → vessel PE as specified
+280	Aislador galvánico	Galvanic isolator
+281	Opción · solo en PE	Optional · PE only
+282	Dispositivo marino adecuado que mantenga la protección en avería. No es transformador de aislamiento ni permite eliminar el PE. Se representa en serie con el PE de puerto.	Suitable marine device that maintains protective function on failure. Not an isolation transformer and not permission to remove PE. Shown in series with shore PE.
+283	PE puerto	shore PE
+284	PE barco	vessel PE
+285	Barra PE	PE busbar
+286	Tierra de protección	Protective earth
+287	Continuidad de protección a carcasas AC. La unión a DC/estructura/bonding se define en el proyecto según arquitectura y norma; no se improvisa ni es un retorno DC.	Protective continuity to AC enclosures. Define the DC/structure/bonding connection in the vessel design to suit its architecture and standard; do not improvise it or use it as a DC return.
+288	PE entrada	PE input
+289	PE cargador	charger PE
+290	PE tomas	outlet PE
+291	PE termo	water heater PE
+292	Cargador de puerto	Shore charger
+294	Cargador compatible con química y capacidad del banco. Entrada L/N/PE; positivo protegido hacia servicios y retorno a SYSTEM MINUS. La salida adicional de motor requiere el modelo adecuado.	Charger matched to bank chemistry and capacity. L/N/PE input; protected positive to the house bank and return to SYSTEM MINUS. An additional engine output requires a suitable charger model.
+297	Tomas de a bordo	Onboard outlets
+298	Circuito 230 V protegido	Protected 230 V circuit
+299	Tomas con tierra adecuadas al entorno, protegidas del agua. Nunca conectar la salida de un inversor a una toma para realimentar el barco.	Earthed outlets suited to the environment and protected from water. Never feed an inverter output into an outlet to backfeed the vessel.
+300	Termo de agua	Water heater
+301	Resistencia y termostato	Heating element and thermostat
+302	Protección propia, termostato y protección de carcasa. Cubrir la resistencia de agua antes de alimentarla. Consumo según placa.	Dedicated protection, thermostat and protective enclosure connection. Cover the heating element with water before energising it. Load as stated on the nameplate.
+303	Retorno al banco 12 V	Connection to 12 V bank
+304	Salida del cargador	Charger output
+305	El positivo pasa por protección dedicada cerca del banco; el negativo llega a la barra de sistema, después del shunt. Es el mismo banco de la pestaña 12 V.	Positive passes through dedicated protection near the bank; negative connects to the system busbar after the shunt. This is the same bank as in the 12 V tab.
+306	+ servicios protegido	protected house +
+308	+ principal	main +
+309	Cobre flexible estañado · sección por calcular	Flexible tinned copper · size to be calculated
+310	Anillas en ambos extremos; diámetro según espárrago	Ring terminals at both ends; hole size to match studs
+311	Fusible principal junto al banco	Main fuse beside the bank
+312	+ protegido	protected +
+313	Potencia DC	DC power
+314	Anillas crimpadas y fundas	Crimped ring terminals and insulation
+315	+ general	main switch +
+316	Anillas / bornes según cuadro	Ring terminals / terminals to suit panel
+317	Fusible principal + protecciones de ramal	Main fuse + branch protection
+318	− banco	bank −
+319	Potencia DC · solo este cable al − del banco	DC power · only this cable on bank negative
+320	Anillas según banco y shunt	Ring terminals to suit bank and shunt
+321	Sin cargas ni cargadores en el lado de batería	No loads or chargers on the battery side
+322	− sistema	system −
+323	entrada de retornos	return input
+324	Anillas; espárragos según modelo	Ring terminals; stud sizes depend on model
+325	Shunt dimensionado para la corriente del banco	Shunt rated for bank current
+326	Medida Vbatt+	Vbatt+ sensing
+328	Hilo de medida del fabricante	Manufacturer's sense wire
+329	Arnés con portafusible incluido	Supplied harness with fuse holder
+330	Fusible de medida según manual del shunt	Small sense fuse as specified by shunt manual
+331	Luces nav.	Nav. lights
+332	+ posición / + fondeo	+ running / + anchor
+333	Multiconductor marino · circuitos separados	Marine multicore · separate circuits
+334	Bornes de cuadro + conector estanco multivía de mástil	Panel terminals + watertight multipole mast connector
+335	Protección por circuito; calibre según cable y luces	Protection per circuit; rating to suit cable and lights
+336	Luces interior	Interior lights
+337	salida protegida	protected output
+338	Bipolar flexible	Flexible two-core
+339	Bornes y conectores con enclavamiento	Terminals and locking connectors
+340	Fusible ramal interior	Interior branch fuse
+341	Arranque	Starting
+342	Cable de arranque según motor	Starter cable to engine specification
+343	Anillas y general de motor; solenoide OEM	Ring terminals and engine isolator; OEM solenoid
+344	Protección de arranque según fabricante y norma	Starter protection per manufacturer and standard
+345	Alternador B+	Alternator B+
+346	Cable según alternador	Cable to alternator specification
+347	Anillas según espárragos	Ring terminals to suit studs
+348	Según fabricante; nunca cortar en marcha	Follow engine manufacturer; never disconnect while running
+349	Carga servicios	House charging
+351	Cable de carga DC	DC charging cable
+352	Anillas / bornes según DC–DC	Ring terminals / terminals to suit DC–DC
+353	Fusible de entrada junto al banco de motor	Input fuse beside engine bank
+354	DC–DC → servicios	DC–DC → house
+356	Bornes / anillas	Terminals / ring terminals
+357	Fusible de salida junto al banco de servicios	Output fuse beside house bank
+358	Referencia motor	Engine reference
+359	referencia común	common reference
+360	Potencia DC según arquitectura	DC power to suit architecture
+361	Anillas · lado SYSTEM MINUS	Ring terminals · SYSTEM MINUS side
+362	No conectar al lado de batería del shunt	Do not connect to the battery side of the shunt
+363	Retorno motor	Engine return
+364	Potencia de arranque	Starter power
+365	Anillas · retorno motor de sección adecuada	Ring terminals · correctly sized engine return
+366	La corriente de arranque no atraviesa el shunt de servicios	Starter current does not pass through the house shunt
+367	Retornos DC–DC	DC–DC returns
+369	retornos	returns
+370	Según modelo aislado / no aislado	Depends on isolated / non-isolated model
+371	Bornes y anillas	Terminals and ring terminals
+372	Ambos retornos al sistema según manual	Both returns to system as specified
+373	Bipolar marino	Marine two-core
+374	Terminal según controlador	Terminal to suit controller
+375	Fusible según nevera y conductor	Fuse to suit fridge and conductor
+376	Cable solar resistente UV · par	UV-resistant solar cable · pair
+377	Conectores solares compatibles, sin mezclar familias	Compatible solar connectors; do not mix families
+378	Seccionamiento DC PV; fusibles de string si procede	PV DC isolation; string fuses where required
+379	MPPT → banco	MPPT → bank
+381	Cable DC de carga	DC charging cable
+382	Fusible de salida junto al banco	Output fuse beside bank
+383	Retorno MPPT	MPPT return
+385	Cable DC	DC cable
+386	Lado de sistema del shunt	System side of shunt
+387	Agua	Water
+388	Conexiones selladas con humedad	Sealed connections in damp locations
+389	Fusible bomba; relé solo si hace falta	Pump fuse; relay only where required
+390	Electrónica	Electronics
+391	+ VHF / red / AIS / plotter	+ VHF / network / AIS / chartplotter
+392	Ramales independientes	Independent branches
+393	Según arnés de cada equipo	To suit each device's harness
+394	Una protección por alimentación, según fabricante	Protection for each supply, per manufacturer
+395	Anilla batería + portafusible estanco	Battery ring terminal + watertight fuse holder
+396	Fusible dedicado en origen antes del general	Dedicated source fuse upstream of main switch
+397	+ sentina	bilge +
+398	Cable marino	Marine cable
+399	Bornes protegidos	Protected terminals
+400	Fusible sentina independiente	Independent bilge fuse
+402	salida AUTO / MANUAL	AUTO / MANUAL output
+403	marrón / marrón-blanco	brown / brown-white
+404	Dos positivos separados; sin puente entre ellos	Two separate positive feeds; no bridge between them
+405	Empalmes estancos crimpados + termorretráctil adhesivo	Sealed crimp joints + adhesive heat shrink
+406	Fusible según modelo; control con OFF de mantenimiento	Fuse to model specification; maintenance OFF control
+407	Molinete	Windlass
+408	salida dedicada de potencia	dedicated power output
+409	disyuntor → contactor → motor	breaker → contactor → motor
+410	Cables de potencia; no desde el pequeño interruptor del cuadro	Power cables; not from the small panel switch
+411	Anillas en contactor y motor según manual	Ring terminals on contactor and motor per manual
+412	Derivación dedicada con disyuntor y seccionador; confirmar origen	Dedicated branch with breaker and isolator; confirm source point
+413	Servicios auxiliares	Auxiliary services
+414	+ 12 V convertidor	converter + 12 V
+415	Entrada según convertidor; salida USB regulada	Input to suit converter; regulated USB output
+416	Fusibles independientes según equipo	Separate fuses to suit equipment
+417	Piloto	Autopilot
+418	Según actuador y central	To suit actuator and control unit
+419	Arnés del fabricante	Manufacturer's harness
+420	Protección propia del piloto	Dedicated autopilot protection
+421	− equipo	device −
+422	Retorno DC dedicado	Dedicated DC return
+423	Terminal según equipo + anilla en barra	Device terminal + busbar ring terminal
+424	Misma capacidad conductora que el positivo correspondiente	Same current capacity as corresponding positive conductor
+425	+ permanente gas	permanent gas +
+426	entrada fusible	fuse input
+427	Cable DC marino	Marine DC cable
+428	Anilla en banco y portafusible adecuado	Bank ring terminal and suitable fuse holder
+429	Fusible en origen según central y conductor	Source fuse to suit alarm and conductor
+430	Alimentación alarma	Alarm power supply
+431	+ central	alarm unit +
+432	Cable bipolar marino	Marine two-core cable
+433	Arnés / bornes según central	Harness / terminals to suit alarm model
+434	Alimentación antes del general; independiente de Pi	Supply upstream of main switch; independent of Pi
+435	− alarma gas	gas alarm −
+436	− central	alarm unit −
+437	Bornes central y anilla en barra	Alarm terminals and busbar ring terminal
+438	Lado SYSTEM MINUS del shunt	SYSTEM MINUS side of shunt
+439	Señal gas	Gas signal
+440	sonda compatible	compatible probe
+441	entrada sonda central	alarm probe input
+442	Arnés original del fabricante	Manufacturer's original harness
+443	Conector y pinout de sonda según central	Probe connector and pinout to suit alarm
+444	No aplicar 12 V directamente ni conectar a GPIO	Do not apply 12 V directly or connect to GPIO
+445	Ramal Raspberry	Raspberry Pi branch
+446	IN+ convertidor	converter IN+
+447	Bornes según convertidor	Terminals to suit converter
+448	Fusible de ramal según entrada y conductor	Branch fuse to suit input and conductor
+449	− convertidor Pi	Pi converter −
+451	Bornes convertidor y barra	Converter and busbar terminals
+453	salida 5 V regulada	regulated 5 V output
+454	Cable USB-C adecuado al modelo	USB-C cable to suit model
+455	USB-C de alimentación con negociación requerida	Power USB-C with required negotiation
+456	Protección de salida y corriente suficiente; nunca 12 V a USB-C	Protected output and adequate current; never 12 V to USB-C
+458	entrada de alimentación hub	hub power input
+459	Cable adecuado de potencia 5 V	Suitable 5 V power cable
+460	Conector según hub; polaridad validada	Connector to hub specification; verified polarity
+461	Salida protegida; no realimentar USB ascendente	Protected output; do not backfeed upstream USB
+462	Datos USB	USB data
+464	USB ascendente hub	hub USB upstream
+465	Cable USB de datos compatible	Compatible USB data cable
+466	USB-A / USB-B / USB-C según hub y Pi	USB-A / USB-B / USB-C to suit hub and Pi
+467	Hub autoalimentado sin retorno de energía a Pi	Self-powered hub with no power backfeed to Pi
+468	USB cámara 1	Camera 1 USB
+470	Cable USB · datos y 5 V	USB cable · data and 5 V
+471	Conector de webcam y puerto del hub compatibles	Compatible webcam connector and hub port
+472	Consumo, ancho de banda y longitud USB según equipos	Total load, bandwidth and USB length to suit devices
+473	USB cámara 2	Camera 2 USB
+475	Consumo total y protección del hub; no es PoE	Total load and hub protection; not PoE
+477	entrada coaxial	coax input
+478	Coaxial marino 50 Ω · pérdidas según longitud	Marine 50 Ω coax · loss depends on length
+479	Conector de antena por confirmar; entrada de cubierta según sistema	Confirm antenna connector; deck entry to suit system
+480	Sellado y fijación mecánica	Sealing and mechanical fastening
+481	Antena → VHF	Antenna → VHF
+482	salida coaxial	coax output
+483	Ray53/63/73: PL-259 macho en cable → SO-239 hembra en radio; otros modelos por confirmar	Ray53/63/73: cable PL-259 male → radio SO-239 female; confirm other models
+484	Antena exclusiva de VHF	Dedicated VHF antenna
+485	Antena compartida	Shared antenna
+486	Según puertos reales del splitter	To suit actual splitter ports
+487	Splitter activo compatible con transmisor AIS	Active splitter compatible with AIS transmission
+489	Puente coaxial 50 Ω	50 Ω coax patch cable
+490	Splitter según modelo; PL-259 en Ray53/63/73	Splitter to model specification; PL-259 on Ray53/63/73
+491	Nunca divisor de TV	Never a TV splitter
+493	Según conector AIS; no asumir PL-259	To suit AIS connector; do not assume PL-259
+494	Transceptor AIS y splitter compatibles	Compatible AIS transceiver and splitter
+495	GNSS antena	antenna GNSS
+496	Coaxial GNSS según fabricante	GNSS coax to manufacturer specification
+497	TNC/BNC/SMA y activo/pasivo: confirmar modelo AIS	TNC/BNC/SMA and active/passive: confirm AIS model
+498	Puerto diferente al de antena VHF	Not the same port as the VHF antenna
+499	Sonda / corredera / viento	Depth / speed / wind
+500	cable transductor	transducer cable
+501	terminales según i40	terminals to suit i40
+502	Cable original del transductor	Original transducer cable
+503	Palas hembra 1/8 pulgada (≈3,2 mm) según manual; no Faston 6,3 mm genérico	Female 1/8-inch (≈3.2 mm) spades per manual; not generic 6.3 mm Faston
+504	Estos hilos no reciben 12 V directamente del cuadro	These wires do not receive 12 V directly from the panel
+506	SeaTalk tres contactos	Three-contact SeaTalk
+507	puerto amarillo SeaTalk	yellow SeaTalk port
+508	Cable SeaTalk 1 y adaptación al convertidor	SeaTalk 1 cable and converter adaptation
+509	Cable de conversión del kit E22158; confirmar adaptación física i40/kit	E22158 kit SeaTalk conversion cable; confirm physical i40/kit adaptation
+510	Una sola alimentación del segmento conectado	Single power feed for the connected segment
+512	Cable backbone SeaTalkng	SeaTalkng backbone cable
+513	Conectores azules de troncal, no spur blancos	Blue backbone connectors, not white spurs
+514	Convertidor insertado en troncal lineal; sin terminador intermedio	Converter inserted in linear backbone; no intermediate terminator
+516	spur blanco	white spur
+517	puerto de datos	data port
+518	Spur SeaTalkng o adaptación Micro-C	SeaTalkng spur or Micro-C adaptation
+519	Ray53/63/73: spur SeaTalkng; VHF Micro-C: adaptador del género correcto	Ray53/63/73: SeaTalkng spur; Micro-C VHF: correct-gender adapter
+520	No suministra la potencia de la radio	Does not supply radio operating power
+521	Posición GNSS	GNSS position
+523	Spur según GPS	Spur to suit GPS
+524	SeaTalkng / Micro-C con adaptador si hace falta	SeaTalkng / Micro-C with adapter where needed
+525	Fuente y PGN de posición aceptados por la VHF	Position source and PGNs accepted by the VHF
+526	Datos → pantalla	Data → display
+527	puerto de red	network port
+529	SeaTalkng / Micro-C según pantalla	SeaTalkng / Micro-C to suit display
+530	Alimentación del plotter separada	Separate chartplotter power supply
+531	AIS → red	AIS → network
+532	puerto NMEA 2000	NMEA 2000 port
+533	Spur con adaptador si hace falta	Spur with adapter where needed
+534	Micro-C / SeaTalkng según AIS	Micro-C / SeaTalkng to suit AIS
+535	Una única ruta de datos elegida	One selected data route
+536	12 V red	network 12 V
+537	spur de alimentación	power spur
+538	spur blanco libre	free white spur
+539	Cable de alimentación SeaTalkng	SeaTalkng power cable
+540	A06049 o equivalente indicado en manual	A06049 or equivalent specified in manual
+541	Fusible según red y fabricante; una única inyección aquí	Fuse to network and manufacturer specification; one injection here
+542	Extremo A	End A
+543	backbone azul libre	free blue backbone port
+544	terminador	terminator
+545	Sin extensión si el extremo es directo	No extension for a direct end connection
+546	Terminador SeaTalkng, p. ej. A06031	SeaTalkng terminator, e.g. A06031
+547	Exactamente dos terminadores en la troncal completa	Exactly two terminators on the complete backbone
+548	Extremo B	End B
+549	Un tapón blanco no sustituye al terminador	A white blanking plug does not replace a terminator
+550	GNSS → pasarela	GNSS → gateway
+551	Spur y adaptación si hace falta	Spur and adaptation where required
+552	SeaTalkng / Micro-C según pasarela	SeaTalkng / Micro-C to suit gateway
+553	Pasarela con salida de posición NMEA 0183	Gateway with NMEA 0183 position output
+554	Posición → DSC	Position → DSC
+556	Par de datos según interfaz	Data pair to suit interface
+557	Bornes protegidos; colores según manuales de ambos modelos	Protected terminals; colours per both model manuals
+558	Baud y sentencias compatibles; no unir salidas TX entre sí	Compatible baud rate and sentences; do not join TX outputs
+559	ramal protegido + / retorno −	protected branch + / return −
+560	entrada de alimentación + / −	power input + / −
+561	Par de alimentación DC; no es NMEA	DC power pair; not NMEA
+562	Arnés original y unión protegida según equipo	Original harness and protected joint to suit equipment
+563	Protección individual según fabricante; retorno a SYSTEM MINUS	Individual manufacturer-specified protection; return to SYSTEM MINUS
+564	PE de puerto	Shore PE
+565	Verde/amarillo en el cable de puerto	Green/yellow within shore cable
+566	Contacto PE de la misma conexión marina	PE contact of the same marine connector
+567	Continuidad PE del puerto al barco	PE continuity from shore to vessel
+569	L / N puerto	shore L / N
+570	Cable marino de puerto	Marine shore cable
+571	Ejemplo IEC 60309 azul 2P+E; confirmar entrada	Example blue IEC 60309 2P+E; confirm inlet
+572	Protección de puerto + protección de a bordo	Shore protection + onboard protection
+573	Cable AC según instalación	AC cable to suit installation
+574	Bornes aprobados con punteras si se admiten	Approved terminals with ferrules where permitted
+575	General bipolar y protección adecuada	Double-pole main switch and suitable protection
+576	L / N → primario	L / N → primary
+577	L / N protección primario	primary protection L / N
+578	Cable AC según transformador	AC cable to suit transformer
+579	Bornes protegidos según modelo	Protected terminals to suit model
+580	Corte bipolar y sobreintensidad según cable y fabricante	Double-pole isolation and overcurrent protection to cable and manufacturer requirements
+581	Alimentación primario	Primary supply
+583	Bornes INPUT originales; punteras si se admiten	Original INPUT terminals; ferrules where permitted
+584	Protección del primario dimensionada; ventilación del transformador	Correctly rated primary protection; transformer ventilation
+585	Aislamiento · sin cable	Isolation · no wire
+586	bobinado primario	primary winding
+587	bobinado secundario	secondary winding
+588	No es un cable: transferencia magnética interna	Not a wire: internal magnetic transfer
+589	Sin conector entre bobinados; sin puente galvánico	No connector between windings; no galvanic bridge
+590	El trazo discontinuo representa aislamiento, no continuidad eléctrica	Dashed line represents isolation, not electrical continuity
+591	L′ / N′ aislados	Isolated L′ / N′
+593	entrada diferencial L′ / N′	RCD input L′ / N′
+594	Cable AC según carga y fabricante	AC cable to load and manufacturer specification
+595	Bornes OUTPUT originales	Original OUTPUT terminals
+596	Diferencial en salida; unión N′–PE de fuente antes del diferencial	Output RCD; source N′–PE bond upstream of RCD
+597	PE de entrada	Input PE
+598	INPUT PE de puerto	INPUT shore PE
+599	Verde/amarillo de protección	Green/yellow protective conductor
+600	Borne INPUT PE según manual	INPUT PE terminal specified in manual
+601	Separado del PE de a bordo a flote; no eliminar PE del primario	Separate from vessel PE afloat; do not remove primary PE
+602	PE de a bordo	Vessel PE
+603	OUTPUT PE / carcasa según manual	OUTPUT PE / enclosure per manual
+604	barra PE de a bordo	vessel PE busbar
+605	Bornes PE del secundario y carcasa según manual	Secondary PE and enclosure terminals per manual
+606	Unión de fuente N′–PE en secundario; sin puente a PE de puerto a flote	Secondary source N′–PE bond; no bridge to shore PE afloat
+607	entrada cuadro	panel input
+609	Bornes cubiertos	Covered terminals
+610	Protecciones de cuadro	Panel protection
+611	PE continuo	Continuous PE
+612	barra PE	PE busbar
+613	Bornes PE dedicados	Dedicated PE terminals
+614	Nunca interruptor ni fusible en PE	Never switch or fuse PE
+615	Según aislador certificado	To certified isolator specification
+616	PE mantiene la función de protección	PE retains its protective function
+617	No confundir con transformador de aislamiento	Do not confuse with an isolation transformer
+618	L / N ramal	branch L / N
+619	Cable AC según ramal	AC cable to suit branch
+620	Bornes / toma según equipo	Terminals / outlet to suit equipment
+621	Protección independiente según carga y conductor	Independent protection to suit load and conductor
+622	PE equipo	equipment PE
+623	Verde/amarillo	Green/yellow
+624	Terminal de protección según equipo	Protective terminal to suit equipment
+625	Continuidad PE, sin seccionamiento	PE continuity, no isolation switch
+627	salida + / −	output + / −
+628	+ servicios / SYSTEM MINUS	+ house / SYSTEM MINUS
+629	Cable DC según cargador	DC cable to suit charger
+630	Fusible junto al banco; retorno después del shunt	Fuse beside bank; return downstream of shunt
+631	Terminal de anilla	Ring terminal
+632	Diámetro del orificio según espárrago y barril según sección. Cobre estañado, crimpado con matriz adecuada y aislamiento adhesivo.	Hole diameter to suit stud and barrel to suit cable size. Tinned copper, crimped with a suitable die and adhesive insulation.
+633	No elegir M8/M10 sin mirar el borne real. Par de apriete según fabricante.	Do not select M8/M10 without checking the actual stud. Tightening torque per manufacturer.
+634	Pala de transductor i40	i40 transducer spade
+635	Sensor · no es SeaTalk	Sensor · not SeaTalk
+636	El manual i40 indica palas de reposición de 1/8 de pulgada, unos 3,2 mm. No son conectores de red.	The i40 manual specifies 1/8-inch replacement spades, approximately 3.2 mm. These are not network connectors.
+637	Comprobar ancho, grosor, calibre de cable y mapa del transductor antes de crimpar.	Check width, thickness, wire size and transducer mapping before crimping.
+638	Bus antiguo Raymarine	Legacy Raymarine bus
+639	Datos y alimentación del segmento i40. No conecta directamente a SeaTalkng. Para convertir datos: E22158 con cable de conversión adecuado.	Data and power for the i40 segment. Does not plug directly into SeaTalkng. Use an E22158 with a suitable conversion cable to translate data.
+640	El dibujo no indica numeración de pines. Una sola alimentación del segmento conectado.	The drawing does not indicate pin numbering. Use a single power feed for the connected segment.
+642	Backbone azul · spur blanco	Blue backbone · white spur
+643	Troncal y derivaciones usan cables diferentes. SeaTalk 1 conecta al puerto amarillo del convertidor.	Backbone and spurs use different cables. Connect the SeaTalk 1 segment to the converter's yellow port.
+644	Dos terminadores en los extremos; tapones en puertos libres. No hacer estrella de backbones.	Two terminators at the backbone ends; blanking plugs in unused ports. Do not arrange backbones in a star.
+646	Datos + alimentación de red	Network data + power
+647	Conector de red de cinco contactos. SeaTalkng requiere adaptación física, no conversión de protocolo.	Five-contact network connector. SeaTalkng needs physical adaptation, not protocol conversion.
+648	Género y puerto según modelo. No asumir que el bus alimenta la potencia de VHF/AIS.	Gender and device port depend on the model. Do not assume the bus supplies VHF/AIS operating power.
+651	PL-259 macho en cable acopla con SO-239 hembra de una radio compatible, como Ray53/63/73.	A cable-mounted male PL-259 mates with a female SO-239 on a compatible radio, such as Ray53/63/73.
+652	El otro extremo depende de antena o splitter. GNSS puede usar conectores diferentes.	The other end depends on the antenna or splitter. GNSS may use different connectors.
+653	Empalme estanco	Sealed splice
+654	Sentina · exterior	Bilge · outdoors
+655	Unión crimpada y sellada con termorretráctil adhesivo adecuado al cable. Fuera del agua y con alivio de tracción.	Crimped joint sealed with cable-compatible adhesive heat shrink. Keep out of water and provide strain relief.
+656	Un conector con grado IP no es necesariamente sumergible permanentemente.	An IP-rated connector is not necessarily suitable for permanent immersion.
+657	Conector fotovoltaico	Photovoltaic connector
+659	Conectores de la misma familia y fabricante, compatibles con cable y placas. La tensión PV no es necesariamente 12 V.	Connectors from the same family and manufacturer, compatible with the cable and panels. PV voltage is not necessarily 12 V.
+660	No abrir bajo carga. Verificar polaridad y Voc de la configuración.	Do not disconnect under load. Check polarity and configuration Voc.
+661	Entrada de puerto 2P+E	2P+E shore inlet
+663	Ejemplo IEC 60309 azul. Otros barcos usan entradas distintas; identificar el sistema antes de comprar.	Example blue IEC 60309. Other vessels use different marine inlets; identify the system before purchasing.
+664	L, N y PE son conductores distintos. PE no es un negativo DC.	L, N and PE are different conductors. PE is not a DC negative.
+665	Bornes NMEA 0183	NMEA 0183 terminals
+667	Interfaz de datos, normalmente con hilos del arnés original y bornes protegidos. Requiere protocolo y velocidad correctos.	Data interface, usually with original harness wires and protected terminals. Requires the correct protocol and baud rate.
+668	Colores e interfaces diferenciales/single-ended según manuales; no usar pinout genérico.	Colours and differential/single-ended interfaces per manuals; do not use a generic pinout.
+669	Potencia · 12 V	Power · 12 V
+670	De la batería a cada consumidor	From battery to every load
+671	Positivo protegido y retorno dedicado. La sentina tiene alimentación permanente independiente del general.	Protected positive and dedicated return. The bilge pump has a permanent feed independent of the main switch.
+672	Datos y antenas	Data and antennas
+673	Cada conector en su sitio	Every connector in its place
+674	Datos, radiofrecuencia y alimentación son conexiones diferentes. Selecciona una línea para ver ambos extremos.	Data, radio frequency and power are different connections. Select a line to inspect both ends.
+675	Puerto · 230 V	Shore · 230 V
+676	La entrada de puerto, separada de 12 V	Shore power, separate from 12 V
+677	Elige transformador de aislamiento o conexión directa con PE continuo. El secundario aislado conserva sus protecciones y tierra de a bordo.	Choose an isolation transformer or a direct connection with continuous PE. The isolated secondary retains its own protection and vessel earth.
+678	Raspberry Pi · alimentación y periféricos USB	Raspberry Pi · power and USB peripherals
+679	Nereus · alarma marina GLP/CO · manual de referencia	Nereus · marine LPG/CO alarm · reference manual
+680	Raymarine i40 · 81340-2 · cap. 4, pp. 24–27	Raymarine i40 · 81340-2 · ch. 4, pp. 24–27
+683	Raymarine AIS · conexiones NMEA 0183 · 87326 rev. 7	Raymarine AIS · NMEA 0183 connections · 87326 rev. 7
+684	Victron SmartShunt · instalación	Victron SmartShunt · installation
+685	Victron Wiring Unlimited · cableado DC	Victron Wiring Unlimited · DC wiring
+686	Victron Wiring Unlimited · cableado AC	Victron Wiring Unlimited · AC wiring
+687	Victron · transformador de aislamiento · instalación	Victron · isolation transformer · installation
+688	Victron · aislamiento galvánico y soft-start	Victron · galvanic isolation and soft-start
+689	Phoenix Contact · protección de sobretensiones	Phoenix Contact · surge protection
+690	Xylem / Rule · bomba automática, esquema de tres hilos	Xylem / Rule · automatic pump, three-wire diagram
+691	Negro	Black
+692	Piezocerámico −	Piezoceramic −
+693	Azul	Blue
+694	Piezocerámico +	Piezoceramic +
+695	Malla	Screen
+696	Pantalla / 0 V	Shield / 0 V
+697	Marrón	Brown
+700	Señal temperatura	Temperature signal
+701	Velocidad 0 V / pantalla	Speed 0 V / screen
+702	Verde	Green
+703	Señal velocidad	Speed signal
+704	Rojo	Red
+705	Alimentación sensor velocidad	Speed sensor supply
+43	+ motor	engine +
+44	− motor	engine −
+82	+ plotter	chartplotter +
+120	+ permanente	permanent +
+203	Troncal SeaTalkng	SeaTalkng backbone
+232	+ plotter / −	+ chartplotter / −
+452	5 V → Raspberry	5 V → Raspberry Pi
+463	USB host Raspberry	Raspberry Pi USB host
+476	Coaxial 50 Ω	50 Ω coax
+511	Troncal SeaTalkng	SeaTalkng backbone
+608	Cable AC	AC cable
+698	Temperatura 0 V	Temperature 0 V
+699	Blanco	White

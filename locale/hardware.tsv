@@ -1,0 +1,149 @@
+Rotavecta de vent	Rotavecta de viento	Wind Rotavecta
+Transductor i40 Wind · dos fils	Transductor i40 Wind · dos hilos	i40 Wind transducer · two wires
+Transductor de vent compatible amb i40 Wind. L’arnès de dos fils arriba als terminals de rotor de la pantalla Wind; no és un sensor NMEA 2000.	Transductor compatible con i40 Wind. El arnés de dos hilos llega a los terminales de rotor de la pantalla Wind; no es un sensor NMEA 2000.	Wind transducer compatible with i40 Wind. Its two-wire harness connects to the Wind display's rotor terminals; it is not an NMEA 2000 sensor.
+vermell: rotor +	rojo: rotor +	red: rotor +
+blau: rotor −	azul: rotor −	blue: rotor −
+Raymarine i40 Wind	Raymarine i40 Wind	Raymarine i40 Wind
+Direcció i velocitat del vent	Dirección y velocidad del viento	Wind direction and speed
+Segona pantalla confirmada: i40 Wind. Rep Rotavecta i comparteix SeaTalk amb Bidata. El vent real necessita velocitat del vaixell a SeaTalk; no rep objectius AIS de la VHF.	Segunda pantalla confirmada: i40 Wind. Recibe Rotavecta y comparte SeaTalk con Bidata. El viento real requiere velocidad del barco en SeaTalk; no recibe objetivos AIS de la VHF.	Second confirmed display: i40 Wind. Receives Rotavecta and shares SeaTalk with Bidata. True wind requires boat speed on SeaTalk; it does not receive AIS targets from the VHF.
+rotor + / −	rotor + / −	rotor + / −
+Unió SeaTalk 1	Unión SeaTalk 1	SeaTalk 1 junction
+Dos i40 · connexió de tres vies	Dos i40 · conexión de tres vías	Two i40 displays · three-way junction
+Unió de la branca dels dos i40, per exemple D244. Comparteix alimentació i dades SeaTalk. Amb convertidor es nodreix des del convertidor; sense convertidor té una única alimentació directa protegida.	Unión de los dos i40, por ejemplo D244. Comparte alimentación y datos SeaTalk. Con convertidor recibe alimentación de este; sin convertidor tiene una única alimentación directa protegida.	Junction for both i40 displays, for example D244. Shares SeaTalk power and data. With a converter it is powered from the converter; otherwise it has one protected direct feed.
+SeaTalk cap a Bidata	SeaTalk hacia Bidata	SeaTalk to Bidata
+SeaTalk cap a Wind	SeaTalk hacia Wind	SeaTalk to Wind
+alimentació o convertidor, no tots dos	alimentación o convertidor, no ambos	power feed or converter, not both
+Alimentació dels i40	Alimentación de los i40	i40 power supply
+12 V protegits · SeaTalk 1	12 V protegidos · SeaTalk 1	Protected 12 V · SeaTalk 1
+Alimentació única de SeaTalk 1 des del quadre quan no hi ha convertidor. Cable d’alimentació compatible, per exemple D229. Els transductors no es connecten directament al quadre.	Alimentación única de SeaTalk 1 desde el cuadro cuando no hay convertidor. Cable compatible, por ejemplo D229. Los transductores no conectan directamente al cuadro.	Single SeaTalk 1 feed from the panel when no converter is fitted. Compatible power cable, for example D229. Transducers do not connect directly to the panel.
+12 V + / − amb fusible	12 V + / − con fusible	Fused 12 V + / −
+SeaTalk 1 alimentació	SeaTalk 1 alimentación	SeaTalk 1 power
+Vent → i40 Wind	Viento → i40 Wind	Wind → i40 Wind
+rotor vermell + / blau −	rotor rojo + / azul −	rotor red + / blue −
+terminals Rotavecta	terminales Rotavecta	Rotavecta terminals
+Arnès original Rotavecta	Arnés original Rotavecta	Original Rotavecta harness
+Pales de transductor segons manual i40; diferent del connector SeaTalk	Palas de transductor según manual i40; distintas del conector SeaTalk	Transducer spades per i40 manual; different from the SeaTalk connector
+No alimentar amb 12 V de quadre	No alimentar con 12 V del cuadro	Do not supply with panel 12 V
+Bidata ↔ SeaTalk	Bidata ↔ SeaTalk	Bidata ↔ SeaTalk
+SeaTalk Bidata	SeaTalk Bidata	Bidata SeaTalk
+unió SeaTalk 1	unión SeaTalk 1	SeaTalk 1 junction
+Cable SeaTalk 1 de tres contactes	Cable SeaTalk 1 de tres contactos	Three-contact SeaTalk 1 cable
+Connector SeaTalk clàssic de tres contactes i unió D244 si cal	Conector SeaTalk clásico de tres contactos y unión D244 si hace falta	Classic three-contact SeaTalk connector and D244 junction if required
+Alimentació única de la branca; dades de corredera compartides	Alimentación única del ramal; datos de corredera compartidos	Single branch supply; shared paddlewheel speed data
+SeaTalk ↔ Wind	SeaTalk ↔ Wind	SeaTalk ↔ Wind
+SeaTalk Wind	SeaTalk Wind	Wind SeaTalk
+Connector SeaTalk clàssic, no SeaTalkng	Conector SeaTalk clásico, no SeaTalkng	Classic SeaTalk connector, not SeaTalkng
+Velocitat de corredera del Bidata disponible per al vent real	Velocidad de corredera del Bidata disponible para viento real	Bidata speed-through-water available for true wind
+12 V → SeaTalk 1	12 V → SeaTalk 1	12 V → SeaTalk 1
+alimentació protegida	alimentación protegida	protected supply
+Cable SeaTalk d’alimentació	Cable SeaTalk de alimentación	SeaTalk power cable
+D229 o cable d’alimentació compatible segons manual	D229 o cable de alimentación compatible según manual	D229 or compatible power cable specified by manual
+Una única injecció amb fusible; no coexistir amb alimentació del convertidor	Una única inyección con fusible; no coexistir con alimentación del convertidor	One fused injection; must not coexist with converter power feed
+SeaTalk → E22158	SeaTalk → E22158	SeaTalk → E22158
+port groc convertidor	puerto amarillo del convertidor	yellow converter port
+Cable SeaTalk del kit convertidor	Cable SeaTalk del kit convertidor	SeaTalk cable from converter kit
+Adaptació clàssica de tres contactes a E22158 segons kit	Adaptación clásica de tres contactos a E22158 según kit	Classic three-contact adaptation to E22158 per kit
+En aquesta opció s’elimina l’alimentació directa D229	Esta opción elimina la alimentación directa D229	This option removes the direct D229 power feed
+GX2400E → GPS / AIS	GX2400E → GPS / AIS	GX2400E → GPS / AIS
+NMEA 2K de la GX2400E	NMEA 2K de la GX2400E	GX2400E NMEA 2K
+spur del backbone	spur de la troncal	backbone spur
+Derivació NMEA 2000 i adaptador SeaTalkng si cal	Derivación NMEA 2000 y adaptador SeaTalkng si hace falta	NMEA 2000 spur and SeaTalkng adapter if required
+Adaptació SeaTalkng–DeviceNet/Micro-C de gènere compatible; no és conversió de protocol	Adaptación SeaTalkng–DeviceNet/Micro-C del género adecuado; no convierte protocolos	Correct-gender SeaTalkng–DeviceNet/Micro-C adaptation; not protocol conversion
+Activar la sortida de posició NMEA 2000 al menú del GPS intern; VHF amb alimentació pròpia	Activar salida de posición NMEA 2000 en el menú del GPS interno; VHF con alimentación propia	Enable NMEA 2000 position output in the internal GPS menu; VHF has its own power supply
+GX2400E · dos i40 · ampliacions opcionals	GX2400E · dos i40 · ampliaciones opcionales	GX2400E · two i40 displays · optional expansion
+Ramals protegits per a la GX2400E i la instrumentació SeaTalk. GPS i receptor AIS són interns de la VHF; no necessiten un ramal separat. Les pantalles o equips addicionals només apareixen si els actives.	Ramales protegidos para GX2400E e instrumentos SeaTalk. GPS y receptor AIS son internos de la VHF y no necesitan un ramal separado. Los equipos adicionales solo aparecen si los activas.	Protected branches for GX2400E and SeaTalk instruments. GPS and AIS receiver are inside the radio and need no separate feed. Additional displays/devices appear only when enabled.
++ VHF i retorn − propis	+ VHF y retorno − propios	Dedicated VHF + and − return
++ instrumentació SeaTalk protegit	+ instrumentos SeaTalk protegido	Protected SeaTalk instrumentation +
+ampliacions segons configuració	ampliaciones según configuración	expansion to suit configuration
+Standard Horizon GX2400E	Standard Horizon GX2400E	Standard Horizon GX2400E
+GPS + receptor AIS integrats	GPS + receptor AIS integrados	Built-in GPS + AIS receiver
+VHF confirmada amb GPS i receptor AIS integrats. Rebre AIS no fa que el teu vaixell transmeti AIS. No cal afegir GPS de xarxa ni splitter per a aquest receptor. NMEA 2000 i 0183 permeten compartir dades amb equips compatibles; els i40 no mostren AIS.	VHF confirmada con GPS y receptor AIS integrados. Recibir AIS no hace que tu barco transmita AIS. No necesita GPS de red ni splitter para este receptor. NMEA 2000 y 0183 comparten datos con equipos compatibles; los i40 no muestran AIS.	Confirmed VHF with built-in GPS and AIS receiver. Receiving AIS does not make your boat transmit AIS. No network GPS or splitter is needed for this receiver. NMEA 2000 and 0183 share data with compatible devices; i40 displays do not show AIS.
+12 V DC + / −	12 V DC + / −	12 V DC + / −
+antena VHF 50 Ω	antena VHF 50 Ω	50 Ω VHF antenna
+GPS intern · sense cable extern obligatori	GPS interno · sin cable externo obligatorio	Internal GPS · no mandatory external cable
+NMEA 2K · ampliació opcional	NMEA 2K · ampliación opcional	NMEA 2K · optional expansion
+NMEA 0183 / HS · alternativa	NMEA 0183 / HS · alternativa	NMEA 0183 / HS · alternative
+GND segons manual del fabricant	GND según manual del fabricante	GND per manufacturer's manual
+Sonda i corredera	Sonda y corredera	Depth and paddlewheel sensors
+Dos transductors → Bidata	Dos transductores → Bidata	Two transducers → Bidata
+Raymarine i40 Bidata	Raymarine i40 Bidata	Raymarine i40 Bidata
+Profunditat i corredera	Profundidad y corredera	Depth and speed through water
+Primera pantalla confirmada: i40 Bidata per a profunditat i velocitat per l’aigua. Els dos transductors arriben als seus terminals; SeaTalk comparteix la velocitat amb la pantalla Wind. No és la velocitat GPS sobre el fons.	Primera pantalla confirmada: i40 Bidata para profundidad y velocidad por el agua. Ambos transductores llegan a sus terminales; SeaTalk comparte velocidad con Wind. No es velocidad GPS sobre el fondo.	First confirmed display: i40 Bidata for depth and speed through water. Both transducers connect to its terminals; SeaTalk shares speed with Wind. This is not GPS speed over ground.
+transductor de profunditat	transductor de profundidad	depth transducer
+transductor de corredera / temperatura	transductor de corredera / temperatura	paddlewheel speed / temperature transducer
+ramal VHF protegit + / −	ramal VHF protegido + / −	protected VHF branch + / −
+alimentació i40 segons perfil	alimentación i40 según perfil	i40 power feed to suit profile
+plotter opcional amb ramal propi	plotter opcional con ramal propio	optional chartplotter with its own branch
+Antena → GX2400E	Antena → GX2400E	Antenna → GX2400E
+Coaxial marí 50 Ω amb PL-259 mascle al cable cap al connector VHF ANT (SO-239) de la GX2400E	Coaxial marino 50 Ω con PL-259 macho hacia VHF ANT (SO-239) de GX2400E	Marine 50 Ω coax with cable-mounted male PL-259 to GX2400E VHF ANT (SO-239)
+Una antena VHF per a ràdio i receptor AIS intern; no cal splitter extern	Una antena VHF para radio y receptor AIS interno; sin splitter externo	One VHF antenna for radio and internal AIS receiver; no external splitter
+Profunditat / corredera	Profundidad / corredera	Depth / speed through water
+terminals Depth i Speed del Bidata	terminales Depth y Speed del Bidata	Bidata Depth and Speed terminals
+Standard Horizon GX2400GPS/E · manual del fabricant	Standard Horizon GX2400GPS/E · manual del fabricante	Standard Horizon GX2400GPS/E · manufacturer's manual
+GX2400E: GPS i receptor AIS interns. No és un transceptor AIS.	GX2400E: GPS y receptor AIS internos. No es transceptor AIS.	GX2400E: internal GPS and AIS receiver. It is not an AIS transceiver.
+Els i40 comparteixen instrumentació per SeaTalk; no visualitzen objectius AIS.	Los i40 comparten instrumentos por SeaTalk; no muestran objetivos AIS.	i40 displays share instrument data over SeaTalk; they do not display AIS targets.
+Perfil bàsic: sense convertidor E22158, backbone NMEA 2000 ni GPS extern.	Perfil básico: sin convertidor E22158, troncal NMEA 2000 ni GPS externo.	Basic profile: no E22158 converter, NMEA 2000 backbone or external GPS.
+Xarxa opcional: exportació GPS/AIS de la GX2400E i instrumentació dels i40 mitjançant E22158.	Red opcional: exportación GPS/AIS de GX2400E e instrumentos i40 mediante E22158.	Optional network: GX2400E GPS/AIS export and i40 instrument data through E22158.
+Standard Horizon GX2400E · GPS + AIS RX	Standard Horizon GX2400E · GPS + AIS RX	Standard Horizon GX2400E · GPS + AIS RX
+Bidata + Wind · 2 pantalles	Bidata + Wind · 2 pantallas	Bidata + Wind · 2 displays
+Ampliació SeaTalkng / NMEA 2000	Ampliación SeaTalkng / NMEA 2000	SeaTalkng / NMEA 2000 expansion
+Plotter opcional a la xarxa	Plotter opcional en la red	Optional network chartplotter
+Aplica GX2400E + i40 Bidata + i40 Wind	Aplica GX2400E + i40 Bidata + i40 Wind	Apply GX2400E + i40 Bidata + i40 Wind
+Equipament confirmat: la VHF ja incorpora GPS i receptor AIS. El convertidor E22158 només cal si vols integrar els i40 amb una xarxa moderna.	Equipo confirmado: la VHF ya incorpora GPS y receptor AIS. E22158 solo hace falta para integrar i40 en una red moderna.	Confirmed equipment: the VHF already has GPS and an AIS receiver. E22158 is only needed to integrate i40 instruments into a modern network.
+Dades dels i40	Datos de los i40	i40 instrument data
+Bidata comparteix la velocitat de corredera amb Wind per SeaTalk	Bidata comparte velocidad de corredera con Wind por SeaTalk	Bidata shares speed through water with Wind over SeaTalk
+Rotavecta → i40 Wind; dades de velocitat rebudes de Bidata	Rotavecta → i40 Wind; velocidad recibida de Bidata	Rotavecta → i40 Wind; boat speed received from Bidata
+GPS intern de la GX2400E per a DSC; exportació opcional a la xarxa	GPS interno de GX2400E para DSC; exportación opcional a red	GX2400E internal GPS for DSC; optional network export
+Equipament confirmat aplicat; notes i mides conservades.	Equipo confirmado aplicado; notas y medidas conservadas.	Confirmed equipment applied; notes and dimensions preserved.
+v1.4 · Atles documentat, adaptable al teu equipament	v1.4 · Atlas documentado, adaptable a tu equipo	v1.4 · Documented atlas, adaptable to your equipment
+
+Raymarine Axiom+	Raymarine Axiom+	Raymarine Axiom+
+Carta · AIS · profunditat · corredera · vent	Carta · AIS · profundidad · corredera · viento	Chart · AIS · depth · boat speed · wind
+Rep profunditat, corredera i vent dels i40 via SeaTalk 1 → E22158 → SeaTalkng → NMEA 2000. Rep AIS de la GX2400E i té GPS intern; seleccionar la font GNSS al sistema. Els sensors existents continuen als i40: no connectar-los en paral·lel a l’Axiom+. La variant RV admet transductors compatibles al port de 25 pins; la versió sense RV necessita un mòdul de sonda RayNet per sonar. No s’afegeix un segon transductor sense confirmar variant i model.	Recibe profundidad, corredera y viento de los i40 por SeaTalk 1 → E22158 → SeaTalkng → NMEA 2000. Recibe AIS de la GX2400E y tiene GPS interno; seleccionar la fuente GNSS en el sistema. Los sensores existentes siguen en los i40: no conectarlos en paralelo al Axiom+. La variante RV admite transductores compatibles en el puerto de 25 pines; la versión sin RV necesita un módulo de sonda RayNet para sonar. No se añade un segundo transductor sin confirmar variante y modelo.	Receives depth, boat speed and wind from the i40 instruments via SeaTalk 1 → E22158 → SeaTalkng → NMEA 2000. Receives AIS from the GX2400E and has internal GPS; select the system GNSS source. Existing sensors remain connected to the i40 displays: do not wire them in parallel to Axiom+. RV variants accept compatible transducers through the 25-pin port; non-RV models need a RayNet sonar module for sonar. No second transducer is added without confirming variant and model.
+12 V DC · vermell + amb fusible / negre −	12 V DC · rojo + con fusible / negro −	12 V DC · fused red + / black −
+DeviceNet mascle a l’arnès Power / NMEA 2000	DeviceNet macho en el arnés Power / NMEA 2000	Male DeviceNet on Power / NMEA 2000 harness
+RayNet Ethernet · ampliacions compatibles	RayNet Ethernet · ampliaciones compatibles	RayNet Ethernet · compatible expansions
+RV: sonar 25 pins · només transductors compatibles	RV: sonar 25 pines · solo transductores compatibles	RV: 25-pin sonar · compatible transducers only
+Fil gris de drenatge · massa RF segons manual	Hilo gris de drenaje · masa RF según manual	Gray drain wire · RF ground according to manual
+Raymarine Axiom+ · instal·lació del fabricant	Raymarine Axiom+ · instalación del fabricante	Raymarine Axiom+ · manufacturer installation
+Spur SeaTalkng–DeviceNet compatible amb el mascle de l’arnès Axiom+; no és un port RayNet	Spur SeaTalkng–DeviceNet compatible con el macho del arnés Axiom+; no es un puerto RayNet	SeaTalkng–DeviceNet spur compatible with the Axiom+ harness male connector; not a RayNet port
+Arnès Power / NMEA 2000 Axiom+: vermell + protegit, negre − a SYSTEM MINUS; gris a massa RF o retorn segons manual	Arnés Power / NMEA 2000 Axiom+: rojo + protegido, negro − a SYSTEM MINUS; gris a masa RF o retorno según manual	Axiom+ Power / NMEA 2000 harness: protected red +, black − to SYSTEM MINUS; gray to RF ground or return according to manual
+Ramal propi de 12 V; fusible i secció segons mida 7/9/12, llargada i manual. NMEA 2000 no alimenta la pantalla.	Ramal propio de 12 V; fusible y sección según tamaño 7/9/12, longitud y manual. NMEA 2000 no alimenta la pantalla.	Dedicated 12 V branch; fuse and cable size depend on 7/9/12 display size, cable length and manual. NMEA 2000 does not power the display.
+GX2400E + i40 Bidata + i40 Wind + Axiom+	GX2400E + i40 Bidata + i40 Wind + Axiom+	GX2400E + i40 Bidata + i40 Wind + Axiom+
+Raymarine Axiom+ a la xarxa	Raymarine Axiom+ en la red	Raymarine Axiom+ on the network
+Coure estanyat multibrins, flexible, d’ús marí; aïllament adequat a temperatura, oli i humitat del recorregut	Cobre estañado multifilar flexible de uso marino; aislamiento adecuado a temperatura, aceite y humedad del recorrido	Flexible stranded tinned marine copper; insulation suitable for route temperature, oil and moisture
+Secció pendent de llargada, corrent, ampacitat, agrupament i protecció; no és una mida de compra validada	Sección pendiente de longitud, corriente, ampacidad, agrupamiento y protección; no es una medida de compra validada	Cross-section depends on length, current, ampacity, bundling and protection; not a validated purchase size
+Terminal d’anella de coure estanyat crimpat i segellat; barrilet segons mm² i forat segons espàrrec real	Terminal de anilla de cobre estañado crimpado y sellado; barril según mm² y orificio según espárrago real	Crimped and sealed tinned copper ring lug; barrel matched to mm² and hole to actual stud
+Borna del fabricant; puntera si és admesa, secció i parell segons equip	Borna del fabricante; puntera si está admitida, sección y par según equipo	Manufacturer terminal; ferrule if permitted, wire size and torque according to equipment
+Arnès original o empalmament crimpat estanc amb termoretràctil adhesiu, fora de l’aigua	Arnés original o empalme crimpado estanco con termorretráctil adhesivo, fuera del agua	Original harness or waterproof crimp splice with adhesive heat-shrink, above water
+Cable original del fabricant; no substituir per una secció genèrica	Cable original del fabricante; no sustituir por una sección genérica	Original manufacturer cable; do not substitute a generic wire gauge
+Coaxial marí de 50 Ω; model i diàmetre segons atenuació, llargada i connector, no segons AWG	Coaxial marino de 50 Ω; modelo y diámetro según atenuación, longitud y conector, no según AWG	50 Ω marine coax; model and diameter depend on loss, length and connector, not AWG
+50 Ω; RG-58 / RG-213 o equivalent només després de verificar pèrdues i radi de curvatura	50 Ω; RG-58 / RG-213 o equivalente solo tras verificar pérdidas y radio de curvatura	50 Ω; RG-58 / RG-213 or equivalent only after checking loss and bend radius
+No aplicable: acoblament magnètic, no hi ha cable ni connector entre bobinats	No aplicable: acoplamiento magnético, no hay cable ni conector entre bobinados	Not applicable: magnetic coupling, no cable or connector between windings
+Cable de xarxa premuntat certificat SeaTalkng / NMEA 2000 segons tram; no cable elèctric genèric	Cable de red premontado certificado SeaTalkng / NMEA 2000 según tramo; no cable eléctrico genérico	Certified preassembled SeaTalkng / NMEA 2000 network cable for this segment; not generic electrical wire
+Calibre intern del cable homologat; triar llargada, tronc blau o derivació blanca i càrrega LEN	Calibre interno del cable homologado; elegir longitud, troncal azul o derivación blanca y carga LEN	Internal gauge of approved cable; select length, blue backbone or white spur and LEN load
+SeaTalk 1 original: positiu, dades i negatiu; tres conductors, no SeaTalkng	SeaTalk 1 original: positivo, datos y negativo; tres conductores, no SeaTalkng	Original SeaTalk 1: positive, data and negative; three conductors, not SeaTalkng
+Arnès de transductor específic, amb apantallament si correspon; sense derivacions en paral·lel	Arnés específico de transductor, con blindaje si corresponde; sin derivaciones en paralelo	Dedicated transducer harness, shielded where applicable; no parallel branches
+Parell trenat apantallat per NMEA 0183, segons interfície del fabricant	Par trenzado apantallado para NMEA 0183, según interfaz del fabricante	Shielded twisted pair for NMEA 0183, according to manufacturer interface
+Cable USB de dades i alimentació conforme a la versió i als ports dels dos equips	Cable USB de datos y alimentación conforme a la versión y puertos de ambos equipos	USB data and power cable matching the version and ports of both devices
+Cable flexible marí AC: L marró, N blau i PE verd/groc; PE separat si el traç el representa a part	Cable flexible marino AC: L marrón, N azul y PE verde/amarillo; PE separado si el trazado lo representa aparte	Flexible marine AC cable: brown L, blue N and green/yellow PE; PE separate where drawn separately
+Conductor flexible verd/groc de protecció; continuïtat PE, mai retorn DC	Conductor flexible verde/amarillo de protección; continuidad PE, nunca retorno DC	Flexible green/yellow protective conductor; PE continuity, never a DC return
+Cable fotovoltaic flexible resistent a UV i intempèrie; tensió assignada superior a Voc màxima del conjunt	Cable fotovoltaico flexible resistente a UV e intemperie; tensión asignada superior a Voc máxima del conjunto	Flexible UV/weather-resistant photovoltaic cable; voltage rating above maximum array Voc
+Connector PV de la mateixa família i fabricant als dos costats; contacte i junta segons diàmetre del cable	Conector PV de la misma familia y fabricante en ambos lados; contacto y junta según diámetro del cable	PV connector of the same family and manufacturer on both sides; contact and seal sized to cable diameter
+FITXA DEL CABLE I TERMINACIONS	FICHA DEL CABLE Y TERMINACIONES	CABLE AND TERMINATION SPECIFICATION
+Tipus de cable	Tipo de cable	Cable type
+Secció / calibre	Sección / calibre	Cross-section / gauge
+Connector extrem A	Conector extremo A	End A connector
+Connector extrem B	Conector extremo B	End B connector
+Referència o tipus de cable escollit	Referencia o tipo de cable elegido	Selected cable reference or type
+Calibre / composició escollits	Calibre / composición elegidos	Selected gauge / core configuration
+Connector A escollit	Conector A elegido	Selected end A connector
+Connector B escollit	Conector B elegido	Selected end B connector
+Pendent de confirmar al muntatge	Pendiente de confirmar en la instalación	To be confirmed on installation
+La fitxa descriu el cable de cada línia funcional. Un traç pot agrupar diversos conductors o ramals; compta’ls abans de comprar.	La ficha describe el cable de cada línea funcional. Un trazado puede agrupar varios conductores o ramales; cuéntalos antes de comprar.	The specification describes each functional line. One line may group several conductors or branches; count them before purchasing.
+Caiguda màxima de disseny · %	Caída máxima de diseño · %	Design voltage drop limit · %
+Introdueix llargada i corrent per obtenir una secció mínima per caiguda de tensió.	Introduce longitud y corriente para obtener una sección mínima por caída de tensión.	Enter length and current to obtain the minimum cross-section for voltage drop.
+Mínim només per caiguda de tensió	Mínimo solo por caída de tensión	Minimum for voltage drop only
+Secció comercial superior	Sección comercial superior	Next standard cross-section
+Cal verificar ampacitat, temperatura, agrupament, arrencada i fusible abans de validar.	Hay que verificar ampacidad, temperatura, agrupamiento, arranque y fusible antes de validar.	Check ampacity, temperature, bundling, starting current and fuse before approval.
+Revisa llargada, corrent, tensió i percentatge.	Revisa longitud, corriente, tensión y porcentaje.	Check length, current, voltage and percentage.

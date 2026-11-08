@@ -1,0 +1,2834 @@
+[
+  {
+    "text": "Bateria de serveis",
+    "group": "node-name"
+  },
+  {
+    "text": "Banc 12 V · capacitat per definir",
+    "group": "node-sub"
+  },
+  {
+    "text": "Banc per a serveis. El projecte parteix de dos bancs separats i negatiu comú al costat de sistema del shunt. Química, BMS, capacitat i corrent de curtcircuit queden per confirmar.",
+    "group": "node-detail"
+  },
+  {
+    "text": "+ serveis",
+    "group": "port"
+  },
+  {
+    "text": "− serveis",
+    "group": "port"
+  },
+  {
+    "text": "Fusible principal",
+    "group": "node-name"
+  },
+  {
+    "text": "Protecció a l’origen",
+    "group": "node-sub"
+  },
+  {
+    "text": "Protegeix el conductor positiu. Cal seleccionar intensitat, tensió DC i poder de tall segons cable i bateria; un seccionador no substitueix el fusible.",
+    "group": "node-detail"
+  },
+  {
+    "text": "entrada +",
+    "group": "port"
+  },
+  {
+    "text": "sortida +",
+    "group": "port"
+  },
+  {
+    "text": "General de serveis",
+    "group": "node-name"
+  },
+  {
+    "text": "Obre / tanca el quadre",
+    "group": "node-sub"
+  },
+  {
+    "text": "Secciona el quadre de serveis. Les derivacions permanents de sentina i càrrega continuen independents, amb protecció pròpia. No és un commutador per posar bancs diferents en paral·lel.",
+    "group": "node-detail"
+  },
+  {
+    "text": "Quadre DC",
+    "group": "node-name"
+  },
+  {
+    "text": "Fusible / disjuntor per ramal",
+    "group": "node-sub"
+  },
+  {
+    "text": "Distribueix el positiu. Cada ramal té protecció i interruptor adequats al seu consum i conductor. La barra de negatius està separada de les proteccions positives.",
+    "group": "node-detail"
+  },
+  {
+    "text": "alimentació +",
+    "group": "port"
+  },
+  {
+    "text": "sortides protegides",
+    "group": "port"
+  },
+  {
+    "text": "Shunt de serveis",
+    "group": "node-name"
+  },
+  {
+    "text": "BATTERY MINUS → SYSTEM MINUS",
+    "group": "node-sub"
+  },
+  {
+    "text": "Mesura el corrent del banc de serveis. Només el negatiu del banc va a BATTERY MINUS; tots els retorns i carregadors van a SYSTEM MINUS. No és un fusible ni un relé.",
+    "group": "node-detail"
+  },
+  {
+    "text": "BATTERY MINUS",
+    "group": "port"
+  },
+  {
+    "text": "SYSTEM MINUS",
+    "group": "port"
+  },
+  {
+    "text": "Vbatt+ amb fusible",
+    "group": "port"
+  },
+  {
+    "text": "Aux opcional",
+    "group": "port"
+  },
+  {
+    "text": "Barra de negatius",
+    "group": "node-name"
+  },
+  {
+    "text": "Retorn DC · costat de sistema",
+    "group": "node-sub"
+  },
+  {
+    "text": "Punt de retorn de tots els serveis i carregadors. També s’hi referencia el negatiu del banc de motor. No utilitzar el casc com a conductor de retorn. El PE de 230 V és una funció diferent.",
+    "group": "node-detail"
+  },
+  {
+    "text": "retorns serveis",
+    "group": "port"
+  },
+  {
+    "text": "referència motor",
+    "group": "port"
+  },
+  {
+    "text": "Llums de navegació",
+    "group": "node-name"
+  },
+  {
+    "text": "Posició · fondeig · coberta",
+    "group": "node-sub"
+  },
+  {
+    "text": "Circuits independents per llums de posició i fondeig segons configuració del vaixell. Passacoberta estanc; connector desmuntable marí al peu del pal amb nombre de vies suficient.",
+    "group": "node-detail"
+  },
+  {
+    "text": "+ posició",
+    "group": "port"
+  },
+  {
+    "text": "+ fondeig",
+    "group": "port"
+  },
+  {
+    "text": "− retorn",
+    "group": "port"
+  },
+  {
+    "text": "Il·luminació interior",
+    "group": "node-name"
+  },
+  {
+    "text": "Cabines · banyera · focus",
+    "group": "node-sub"
+  },
+  {
+    "text": "Interruptors locals després de la protecció del ramal. Dimensionar cada derivació. Connectors amb enclavament en llocs secs, unions segellades a exterior.",
+    "group": "node-detail"
+  },
+  {
+    "text": "+ després d’interruptor",
+    "group": "port"
+  },
+  {
+    "text": "Bateria de motor",
+    "group": "node-name"
+  },
+  {
+    "text": "Banc d’arrencada separat",
+    "group": "node-sub"
+  },
+  {
+    "text": "Banc dedicat a l’arrencada. La connexió de potència d’arrencada i la seva protecció requereixen el manual del motor i la norma aplicable; no es dimensionen amb el càlcul de serveis.",
+    "group": "node-detail"
+  },
+  {
+    "text": "+ motor",
+    "group": "port"
+  },
+  {
+    "text": "− motor",
+    "group": "port"
+  },
+  {
+    "text": "Motor i alternador",
+    "group": "node-name"
+  },
+  {
+    "text": "Arrencada · B+ · retorn",
+    "group": "node-sub"
+  },
+  {
+    "text": "El motor d’arrencada té contacte de potència propi. L’alternador carrega primer el banc de motor; no obrir la seva connexió de bateria amb el motor en marxa. Referència funcional, confirmar el cablejat del fabricant.",
+    "group": "node-detail"
+  },
+  {
+    "text": "B+ alternador",
+    "group": "port"
+  },
+  {
+    "text": "arrencada +",
+    "group": "port"
+  },
+  {
+    "text": "bloc / retorn −",
+    "group": "port"
+  },
+  {
+    "text": "Carregador DC–DC",
+    "group": "node-name"
+  },
+  {
+    "text": "Motor → serveis",
+    "group": "node-sub"
+  },
+  {
+    "text": "Arquitectura triada: DC–DC en lloc d’un relé de càrrega. Adequar-lo a l’alternador i la química de serveis. Necessita protecció als dos extrems alimentats i senyal d’habilitació segons model.",
+    "group": "node-detail"
+  },
+  {
+    "text": "IN+ / IN−",
+    "group": "port"
+  },
+  {
+    "text": "OUT+ / OUT−",
+    "group": "port"
+  },
+  {
+    "text": "enable segons model",
+    "group": "port"
+  },
+  {
+    "text": "Nevera",
+    "group": "node-name"
+  },
+  {
+    "text": "Ramal dedicat",
+    "group": "node-sub"
+  },
+  {
+    "text": "Consum i arrencada del compressor segons model. La caiguda de tensió pot activar la desconnexió de baixa tensió. No s’afegeix un relé genèric si el controlador del fabricant ja governa el compressor.",
+    "group": "node-detail"
+  },
+  {
+    "text": "+ controlador",
+    "group": "port"
+  },
+  {
+    "text": "− controlador",
+    "group": "port"
+  },
+  {
+    "text": "Plaques solars",
+    "group": "node-name"
+  },
+  {
+    "text": "PV · tensió segons configuració",
+    "group": "node-sub"
+  },
+  {
+    "text": "La tensió PV pot ser superior a 12 V. Verificar Voc a baixa temperatura i límits del regulador. Proteccions de strings només quan pertoqui al disseny; connectors solars compatibles de la mateixa família i fabricant.",
+    "group": "node-detail"
+  },
+  {
+    "text": "PV+",
+    "group": "port"
+  },
+  {
+    "text": "PV−",
+    "group": "port"
+  },
+  {
+    "text": "Regulador MPPT",
+    "group": "node-name"
+  },
+  {
+    "text": "PV → banc de serveis",
+    "group": "node-sub"
+  },
+  {
+    "text": "Sortida al banc de serveis mitjançant fusible dedicat; retorn al costat de sistema del shunt. Ordre de connexió/desconnexió i posada a terra del marc segons manual del regulador.",
+    "group": "node-detail"
+  },
+  {
+    "text": "PV+ / PV−",
+    "group": "port"
+  },
+  {
+    "text": "BAT+ / BAT−",
+    "group": "port"
+  },
+  {
+    "text": "Bomba d’aigua dolça",
+    "group": "node-name"
+  },
+  {
+    "text": "Pressòstat propi",
+    "group": "node-sub"
+  },
+  {
+    "text": "Ramal protegit i comandament de quadre. El pressòstat pot commutar la bomba si suporta el seu corrent d’arrencada. Afegir relé només si ho exigeix el conjunt.",
+    "group": "node-detail"
+  },
+  {
+    "text": "+ pressòstat",
+    "group": "port"
+  },
+  {
+    "text": "Alimentació electrònica",
+    "group": "node-name"
+  },
+  {
+    "text": "VHF · xarxa · AIS · plotter",
+    "group": "node-sub"
+  },
+  {
+    "text": "Quatre ramals separats i protegits. L’alimentació de la VHF i l’AIS no arriba del cable d’antena ni necessàriament de NMEA 2000. Detall de dades a la pestanya corresponent.",
+    "group": "node-detail"
+  },
+  {
+    "text": "+ VHF",
+    "group": "port"
+  },
+  {
+    "text": "+ xarxa",
+    "group": "port"
+  },
+  {
+    "text": "+ AIS",
+    "group": "port"
+  },
+  {
+    "text": "+ plotter",
+    "group": "port"
+  },
+  {
+    "text": "− retorns",
+    "group": "port"
+  },
+  {
+    "text": "Fusible sentina",
+    "group": "node-name"
+  },
+  {
+    "text": "Derivació permanent",
+    "group": "node-sub"
+  },
+  {
+    "text": "Derivació abans del general de serveis. Fusible segons la bomba i la secció. Pot continuar amb tensió encara que el quadre estigui apagat.",
+    "group": "node-detail"
+  },
+  {
+    "text": "entrada + permanent",
+    "group": "port"
+  },
+  {
+    "text": "sortida + protegida",
+    "group": "port"
+  },
+  {
+    "text": "Control sentina",
+    "group": "node-name"
+  },
+  {
+    "text": "AUTO · OFF · MANUAL",
+    "group": "node-sub"
+  },
+  {
+    "text": "Circuit de tres fils per a una bomba automàtica compatible Rule. AUTO alimenta el sensor intern; MANUAL el sobrepassa. No unir les dues entrades positives. Si la bomba té dos fils, cal un esquema diferent amb flotador extern.",
+    "group": "node-detail"
+  },
+  {
+    "text": "comú +",
+    "group": "port"
+  },
+  {
+    "text": "sortida AUTO",
+    "group": "port"
+  },
+  {
+    "text": "sortida MANUAL",
+    "group": "port"
+  },
+  {
+    "text": "Bomba de sentina",
+    "group": "node-name"
+  },
+  {
+    "text": "Automàtica · tres fils",
+    "group": "node-sub"
+  },
+  {
+    "text": "Exemple Rule de tres fils: marró automàtic, marró/blanc manual, negre retorn. Unions segellades fora de la zona submergida. El calibre del fusible depèn del model exacte.",
+    "group": "node-detail"
+  },
+  {
+    "text": "marró AUTO +",
+    "group": "port"
+  },
+  {
+    "text": "marró/blanc MANUAL +",
+    "group": "port"
+  },
+  {
+    "text": "negre −",
+    "group": "port"
+  },
+  {
+    "text": "Molinet d’àncora",
+    "group": "node-name"
+  },
+  {
+    "text": "Contactor inversor dedicat",
+    "group": "node-sub"
+  },
+  {
+    "text": "El comandament no ha de portar el corrent del motor. Disjuntor, seccionador i contactor inversor dedicats; cablejat de dues o tres bornes segons motor. El fusible i el cable es calculen amb la placa i el manual.",
+    "group": "node-detail"
+  },
+  {
+    "text": "entrada potència protegida",
+    "group": "port"
+  },
+  {
+    "text": "comandament UP / DOWN",
+    "group": "port"
+  },
+  {
+    "text": "retorn −",
+    "group": "port"
+  },
+  {
+    "text": "USB · música",
+    "group": "node-name"
+  },
+  {
+    "text": "Convertidor 12 → 5 V regulat",
+    "group": "node-sub"
+  },
+  {
+    "text": "Preses USB i equip de música amb ramals protegits. La Raspberry i les dues webcams tenen circuit propi al mateix esquema. Una presa USB no rep 12 V directament.",
+    "group": "node-detail"
+  },
+  {
+    "text": "+ 12 V protegit",
+    "group": "port"
+  },
+  {
+    "text": "5 V / USB segons equip",
+    "group": "port"
+  },
+  {
+    "text": "Pilot automàtic",
+    "group": "node-name"
+  },
+  {
+    "text": "Potència i dades separades",
+    "group": "node-sub"
+  },
+  {
+    "text": "L’actuador es connecta a la unitat de control, amb ramal de potència propi i sensor de rumb. La xarxa de dades no alimenta el motor del pilot. Model i consum pendents.",
+    "group": "node-detail"
+  },
+  {
+    "text": "+ unitat de control",
+    "group": "port"
+  },
+  {
+    "text": "xarxa de dades",
+    "group": "port"
+  },
+  {
+    "text": "Fusible alarma de gas",
+    "group": "node-name"
+  },
+  {
+    "text": "Derivació permanent protegida",
+    "group": "node-sub"
+  },
+  {
+    "text": "Alimentació de la central de gas abans del general de serveis, amb fusible propi segons el model. L’alarma continua disponible amb el quadre apagat; aïllament de manteniment segons fabricant.",
+    "group": "node-detail"
+  },
+  {
+    "text": "+ permanent",
+    "group": "port"
+  },
+  {
+    "text": "+ central protegit",
+    "group": "port"
+  },
+  {
+    "text": "Central alarma de gas",
+    "group": "node-name"
+  },
+  {
+    "text": "GLP · avisador autònom",
+    "group": "node-sub"
+  },
+  {
+    "text": "Central marina per a GLP amb avisador propi i sonda compatible. No depèn de la Raspberry ni d’internet. El model, fusible i procediment de prova es confirmen al manual; una alarma de GLP no substitueix una de CO.",
+    "group": "node-detail"
+  },
+  {
+    "text": "12 V + / −",
+    "group": "port"
+  },
+  {
+    "text": "sonda GLP del fabricant",
+    "group": "port"
+  },
+  {
+    "text": "avisador integrat",
+    "group": "port"
+  },
+  {
+    "text": "Sensor de gas GLP",
+    "group": "node-name"
+  },
+  {
+    "text": "Sonda remota de la central",
+    "group": "node-sub"
+  },
+  {
+    "text": "Sonda específica per al gas que es vol detectar. Ubicació, ventilació, humitat i procediment de prova segons fabricant. No connectar la sonda directament a 12 V ni al GPIO; no afegir una electrovàlvula sense validar la central.",
+    "group": "node-detail"
+  },
+  {
+    "text": "arnès original cap a central",
+    "group": "port"
+  },
+  {
+    "text": "Convertidor per a Pi",
+    "group": "node-name"
+  },
+  {
+    "text": "12 V → 5 V regulats",
+    "group": "node-sub"
+  },
+  {
+    "text": "Convertidor DC–DC dedicat a Raspberry i hub, amb sortides protegides adequades. Verificar tensió, corrent i negociació USB-C del model de Pi. En Pi 5, la potència disponible als perifèrics depèn de la font; no aplicar 12 V a USB ni GPIO.",
+    "group": "node-detail"
+  },
+  {
+    "text": "IN 12 V + / −",
+    "group": "port"
+  },
+  {
+    "text": "OUT 5 V + / −",
+    "group": "port"
+  },
+  {
+    "text": "USB-C adequat al model",
+    "group": "port"
+  },
+  {
+    "text": "Raspberry Pi",
+    "group": "node-name"
+  },
+  {
+    "text": "Ordinador de bord · 5 V",
+    "group": "node-sub"
+  },
+  {
+    "text": "Alimentació per USB-C segons model i dades USB al hub. Dues càmeres poden excedir el pressupost USB de la placa: es representa un hub autoalimentat compatible. El tancament del sistema operatiu s’ha de fer abans de tallar el corrent.",
+    "group": "node-detail"
+  },
+  {
+    "text": "USB-C alimentació",
+    "group": "port"
+  },
+  {
+    "text": "USB amunt cap al hub",
+    "group": "port"
+  },
+  {
+    "text": "Hub USB autoalimentat",
+    "group": "node-name"
+  },
+  {
+    "text": "5 V propis · dades a la Pi",
+    "group": "node-sub"
+  },
+  {
+    "text": "Hub USB amb alimentació pròpia de 5 V i sense realimentació del port amunt. Dona energia i dades a les dues webcams. Verificar la suma de consums i l’amplada de banda. No és un injector PoE.",
+    "group": "node-detail"
+  },
+  {
+    "text": "5 V entrada",
+    "group": "port"
+  },
+  {
+    "text": "USB amunt → Raspberry",
+    "group": "port"
+  },
+  {
+    "text": "USB avall 1",
+    "group": "port"
+  },
+  {
+    "text": "USB avall 2",
+    "group": "port"
+  },
+  {
+    "text": "Webcam 1 · banyera",
+    "group": "node-name"
+  },
+  {
+    "text": "USB · energia i vídeo",
+    "group": "node-sub"
+  },
+  {
+    "text": "Webcam USB de referència connectada al hub, que aporta dades i energia. Verificar compatibilitat, llargada USB i protecció ambiental si s’instal·la a l’exterior. No és una càmera IP/PoE.",
+    "group": "node-detail"
+  },
+  {
+    "text": "USB cap al hub",
+    "group": "port"
+  },
+  {
+    "text": "Webcam 2 · interior",
+    "group": "node-name"
+  },
+  {
+    "text": "Segona webcam USB independent al mateix hub. El diagrama documenta el cablejat; aquesta web no activa càmeres reals ni en mostra imatges. Seleccionar càmera i hub compatibles amb la Raspberry.",
+    "group": "node-detail"
+  },
+  {
+    "text": "Antena VHF / AIS",
+    "group": "node-name"
+  },
+  {
+    "text": "Radiofreqüència · 50 Ω",
+    "group": "node-sub"
+  },
+  {
+    "text": "Antena marina adequada a les freqüències VHF/AIS. El connector de base depèn de l’antena: cable fix, SO-239, N o altre. El cable coaxial es tria segons pèrdua total i llargada; no és coaxial TV de 75 Ω.",
+    "group": "node-detail"
+  },
+  {
+    "text": "port RF de l’antena",
+    "group": "port"
+  },
+  {
+    "text": "Pas de pal / coberta",
+    "group": "node-name"
+  },
+  {
+    "text": "Connexió estanca accessible",
+    "group": "node-sub"
+  },
+  {
+    "text": "Passacoberta amb premsaestopa o unió RF estanca accessible. La unió afegeix pèrdua. Evitar punts on entri aigua i mantenir radi de curvatura del coaxial.",
+    "group": "node-detail"
+  },
+  {
+    "text": "coaxial entrada",
+    "group": "port"
+  },
+  {
+    "text": "coaxial sortida",
+    "group": "port"
+  },
+  {
+    "text": "Splitter actiu VHF/AIS",
+    "group": "node-name"
+  },
+  {
+    "text": "Compatible amb transmissió AIS",
+    "group": "node-sub"
+  },
+  {
+    "text": "Només en mode AIS extern amb antena compartida. Cal un splitter dissenyat per VHF i AIS transceptor, no un divisor passiu. Tipus de connector i alimentació depenen del model.",
+    "group": "node-detail"
+  },
+  {
+    "text": "ANT",
+    "group": "port"
+  },
+  {
+    "text": "VHF",
+    "group": "port"
+  },
+  {
+    "text": "AIS",
+    "group": "port"
+  },
+  {
+    "text": "12 V +/−",
+    "group": "port"
+  },
+  {
+    "text": "Emissora VHF DSC",
+    "group": "node-name"
+  },
+  {
+    "text": "Model configurable",
+    "group": "node-sub"
+  },
+  {
+    "text": "DSC necessita una posició GNSS vàlida i la configuració de l’emissora. L’i40 no és una font GPS. Ray53/63/73 tenen GNSS integrat; una emissora genèrica pot necessitar GPS extern.",
+    "group": "node-detail"
+  },
+  {
+    "text": "RF antena",
+    "group": "port"
+  },
+  {
+    "text": "NMEA segons model",
+    "group": "port"
+  },
+  {
+    "text": "GNSS segons model",
+    "group": "port"
+  },
+  {
+    "text": "AIS extern",
+    "group": "node-name"
+  },
+  {
+    "text": "Transceptor · equip opcional",
+    "group": "node-sub"
+  },
+  {
+    "text": "Receptor i transceptor són coses diferents. L’AIS extern transceptor pot necessitar antena GNSS pròpia segons model. Alimentació i xarxa separades. No connectar NMEA 0183 i NMEA 2000 al mateix destí alhora sense validar el manual.",
+    "group": "node-detail"
+  },
+  {
+    "text": "RF VHF/AIS",
+    "group": "port"
+  },
+  {
+    "text": "GNSS dedicat",
+    "group": "port"
+  },
+  {
+    "text": "NMEA 2000 / 0183",
+    "group": "port"
+  },
+  {
+    "text": "Font de posició GNSS",
+    "group": "node-name"
+  },
+  {
+    "text": "GPS extern a la xarxa",
+    "group": "node-sub"
+  },
+  {
+    "text": "Font GNSS externa de referència per a la xarxa. Pot ser substituïda per una font compatible existent. Un GPS intern de la VHF no s’ha de donar per exportable sense verificar el model i els PGN/sentències.",
+    "group": "node-detail"
+  },
+  {
+    "text": "spur NMEA 2000 / SeaTalkng",
+    "group": "port"
+  },
+  {
+    "text": "Transductors i40",
+    "group": "node-name"
+  },
+  {
+    "text": "Depth · Speed · Rotavecta",
+    "group": "node-sub"
+  },
+  {
+    "text": "El transductor va als terminals específics de l’i40, no a NMEA 2000. El manual especifica terminals de pala d’1/8 de polzada per reposició. Colors i funcions canvien segons transductor; consultar el mapa detallat.",
+    "group": "node-detail"
+  },
+  {
+    "text": "cable transductor original",
+    "group": "port"
+  },
+  {
+    "text": "Raymarine i40",
+    "group": "node-name"
+  },
+  {
+    "text": "SeaTalk 1 · instrumentació",
+    "group": "node-sub"
+  },
+  {
+    "text": "i40 Depth, Speed, Bidata o Wind. Port SeaTalk de tres contactes i terminals de transductor diferents. No accepta un connector SeaTalkng directament i no mostra objectius AIS ni posició GPS.",
+    "group": "node-detail"
+  },
+  {
+    "text": "SeaTalk 1 · tres contactes",
+    "group": "port"
+  },
+  {
+    "text": "pales transductor",
+    "group": "port"
+  },
+  {
+    "text": "Convertidor SeaTalk",
+    "group": "node-name"
+  },
+  {
+    "text": "E22158 · conversió activa",
+    "group": "node-sub"
+  },
+  {
+    "text": "Tradueix dades compatibles entre SeaTalk 1 i SeaTalkng. No és un simple adaptador de forma. La branca i40 es pot alimentar des del convertidor en aquesta arquitectura; no s’hi afegeix una segona alimentació de 12 V.",
+    "group": "node-detail"
+  },
+  {
+    "text": "groc: SeaTalk 1",
+    "group": "port"
+  },
+  {
+    "text": "blancs: spur",
+    "group": "port"
+  },
+  {
+    "text": "blaus: backbone",
+    "group": "port"
+  },
+  {
+    "text": "Backbone SeaTalkng",
+    "group": "node-name"
+  },
+  {
+    "text": "Tronc amb dos terminadors",
+    "group": "node-sub"
+  },
+  {
+    "text": "Un sol tronc lineal, dos extrems terminats i equips en derivacions spur. Una injecció de 12 V protegida en aquest exemple. SeaTalkng i NMEA 2000 necessiten el cable adaptador físic adequat.",
+    "group": "node-detail"
+  },
+  {
+    "text": "backbone blau A",
+    "group": "port"
+  },
+  {
+    "text": "backbone blau B",
+    "group": "port"
+  },
+  {
+    "text": "spur blancs",
+    "group": "port"
+  },
+  {
+    "text": "Terminador A",
+    "group": "node-name"
+  },
+  {
+    "text": "Extrem del backbone",
+    "group": "node-sub"
+  },
+  {
+    "text": "Una resistència terminadora a cadascun dels dos extrems del tronc. No confondre un tap d’estanquitat amb un terminador.",
+    "group": "node-detail"
+  },
+  {
+    "text": "backbone blau",
+    "group": "port"
+  },
+  {
+    "text": "Terminador B",
+    "group": "node-name"
+  },
+  {
+    "text": "Altre extrem del backbone",
+    "group": "node-sub"
+  },
+  {
+    "text": "Segon i últim terminador del tronc. No instal·lar-ne un a cada instrument.",
+    "group": "node-detail"
+  },
+  {
+    "text": "Plotter / pantalla",
+    "group": "node-name"
+  },
+  {
+    "text": "Visualitza AIS i instruments",
+    "group": "node-sub"
+  },
+  {
+    "text": "Rep dades compatibles de la xarxa: sonda/velocitat dels i40 i objectius AIS de la font triada. La capacitat de visualització i els PGN admesos depenen del model. Té alimentació pròpia.",
+    "group": "node-detail"
+  },
+  {
+    "text": "spur SeaTalkng / NMEA 2000",
+    "group": "port"
+  },
+  {
+    "text": "Alimentació de xarxa",
+    "group": "node-name"
+  },
+  {
+    "text": "Ramal 12 V protegit únic",
+    "group": "node-sub"
+  },
+  {
+    "text": "Cable de potència SeaTalkng connectat a una derivació blanca apropiada. La VHF i el plotter mantenen alimentació pròpia. Comprovar la càrrega total/LEN i la caiguda de tensió del tronc.",
+    "group": "node-detail"
+  },
+  {
+    "text": "+ 12 V amb fusible",
+    "group": "port"
+  },
+  {
+    "text": "− DC",
+    "group": "port"
+  },
+  {
+    "text": "spur de potència",
+    "group": "port"
+  },
+  {
+    "text": "Quadre 12 V · ramals",
+    "group": "node-name"
+  },
+  {
+    "text": "Alimentacions + i − separades",
+    "group": "node-sub"
+  },
+  {
+    "text": "Enllaç amb el quadre de la pestanya 12 V. Cada equip té el seu positiu protegit i un retorn a la barra SYSTEM MINUS. Aquí un traç representa el parell d’alimentació, no un cable de dades.",
+    "group": "node-detail"
+  },
+  {
+    "text": "+ VHF / −",
+    "group": "port"
+  },
+  {
+    "text": "+ AIS / −",
+    "group": "port"
+  },
+  {
+    "text": "+ splitter / −",
+    "group": "port"
+  },
+  {
+    "text": "+ plotter / −",
+    "group": "port"
+  },
+  {
+    "text": "Passarel·la NMEA 0183",
+    "group": "node-name"
+  },
+  {
+    "text": "Conversió activa aïllada",
+    "group": "node-sub"
+  },
+  {
+    "text": "Per a una VHF només NMEA 0183. Sortida del talker TX+/TX− a entrada RX+/RX− de la ràdio. La velocitat i les sentències s’han de confirmar. Aquesta passarel·la ha d’admetre posició GNSS; un adaptador de connector no converteix protocols.",
+    "group": "node-detail"
+  },
+  {
+    "text": "spur NMEA 2000",
+    "group": "port"
+  },
+  {
+    "text": "TX+ / TX−",
+    "group": "port"
+  },
+  {
+    "text": "alimentació segons model",
+    "group": "port"
+  },
+  {
+    "text": "Antena GNSS de l’AIS",
+    "group": "node-name"
+  },
+  {
+    "text": "Port diferent del VHF",
+    "group": "node-sub"
+  },
+  {
+    "text": "Si el transceptor AIS ho exigeix, antena GNSS dedicada del tipus actiu/passiu indicat al manual. El connector pot ser TNC, BNC o SMA; queda pendent fins a definir l’AIS.",
+    "group": "node-detail"
+  },
+  {
+    "text": "GNSS segons AIS",
+    "group": "port"
+  },
+  {
+    "text": "Torreta del port",
+    "group": "node-name"
+  },
+  {
+    "text": "230 V AC · L / N / PE",
+    "group": "node-sub"
+  },
+  {
+    "text": "Presa de port i cable marí apropiats. En aquest projecte es representa una entrada IEC 60309 blava 2P+E com a exemple; confirmar corrent nominal, entrada del vaixell i connectors reals.",
+    "group": "node-detail"
+  },
+  {
+    "text": "L · fase",
+    "group": "port"
+  },
+  {
+    "text": "N · neutre",
+    "group": "port"
+  },
+  {
+    "text": "PE · protecció",
+    "group": "port"
+  },
+  {
+    "text": "Entrada de port",
+    "group": "node-name"
+  },
+  {
+    "text": "Connexió de bord",
+    "group": "node-sub"
+  },
+  {
+    "text": "Entrada marina compatible amb el cable. Els connectors IEC 60309 no són intercanviables amb tots els sistemes d’entrada nàutics. Retenció mecànica i estanquitat apropiades.",
+    "group": "node-detail"
+  },
+  {
+    "text": "L",
+    "group": "port"
+  },
+  {
+    "text": "N",
+    "group": "port"
+  },
+  {
+    "text": "PE",
+    "group": "port"
+  },
+  {
+    "text": "Protecció general AC",
+    "group": "node-name"
+  },
+  {
+    "text": "Tall bipolar · diferencial",
+    "group": "node-sub"
+  },
+  {
+    "text": "Protecció diferencial i contra sobreintensitat adequades. S’han de coordinar amb el sistema de terra, el cable i el subministrament. El botó de prova verifica el mecanisme, no certifica la instal·lació.",
+    "group": "node-detail"
+  },
+  {
+    "text": "L / N entrada",
+    "group": "port"
+  },
+  {
+    "text": "L / N sortida",
+    "group": "port"
+  },
+  {
+    "text": "Quadre de 230 V",
+    "group": "node-name"
+  },
+  {
+    "text": "Protecció per circuit",
+    "group": "node-sub"
+  },
+  {
+    "text": "Derivacions separades a carregador, endolls i termo. El PE no passa per fusible ni per interruptor. No hi ha inversor en aquesta arquitectura per evitar representar una commutació de fonts no definida.",
+    "group": "node-detail"
+  },
+  {
+    "text": "L / N protegits",
+    "group": "port"
+  },
+  {
+    "text": "barra PE separada",
+    "group": "port"
+  },
+  {
+    "text": "Protecció del primari",
+    "group": "node-name"
+  },
+  {
+    "text": "Entrada de port · tall bipolar",
+    "group": "node-sub"
+  },
+  {
+    "text": "Protecció del cable i del primari segons el transformador. Coordinar-la amb el corrent d’entrada i el soft-start del model; no substitueix el diferencial de sortida.",
+    "group": "node-detail"
+  },
+  {
+    "text": "L / N al primari",
+    "group": "port"
+  },
+  {
+    "text": "Transformador d’aïllament",
+    "group": "node-name"
+  },
+  {
+    "text": "Primari · PE de port separat",
+    "group": "node-sub"
+  },
+  {
+    "text": "Transformador marí amb bobinats separats; no un autotransformador. Interromp el camí galvànic de la connexió de port. No és un estabilitzador ni garanteix protecció contra transitoris: cal estudiar un SPD coordinat. El soft-start, si en té, limita el corrent d’encesa propi.",
+    "group": "node-detail"
+  },
+  {
+    "text": "INPUT L / N / PE port",
+    "group": "port"
+  },
+  {
+    "text": "acoblament magnètic cap al secundari",
+    "group": "port"
+  },
+  {
+    "text": "Secundari del trafo",
+    "group": "node-name"
+  },
+  {
+    "text": "Font aïllada · L′ / N′ / PE bord",
+    "group": "node-sub"
+  },
+  {
+    "text": "Bloc funcional dels borns de sortida del mateix transformador, no un segon aparell. En aquesta arquitectura de font fixa, el N′ es referencia al PE de bord al costat font, abans del diferencial, segons manual. PE de port i PE de bord no es ponten a flotació. Carcassa a PE de bord segons el fabricant; a terra/varador cal seguir el procediment específic del manual.",
+    "group": "node-detail"
+  },
+  {
+    "text": "OUTPUT L′ / N′ / PE bord",
+    "group": "port"
+  },
+  {
+    "text": "unió de font N′–PE abans del diferencial",
+    "group": "port"
+  },
+  {
+    "text": "carcassa → PE bord segons manual",
+    "group": "port"
+  },
+  {
+    "text": "Aïllador galvànic",
+    "group": "node-name"
+  },
+  {
+    "text": "Opció · només al PE",
+    "group": "node-sub"
+  },
+  {
+    "text": "Si s’instal·la, dispositiu marí apropiat que mantingui la funció de protecció en avaria. No és un transformador d’aïllament ni permet eliminar el PE. Es representa en sèrie al conductor PE de port.",
+    "group": "node-detail"
+  },
+  {
+    "text": "PE port",
+    "group": "port"
+  },
+  {
+    "text": "PE vaixell",
+    "group": "port"
+  },
+  {
+    "text": "Barra PE",
+    "group": "node-name"
+  },
+  {
+    "text": "Terra de protecció",
+    "group": "node-sub"
+  },
+  {
+    "text": "Continuïtat de protecció a carcasses AC. La unió a DC/estructura/bonding s’ha de definir al projecte del vaixell segons arquitectura i norma; no s’improvisa ni es representa com a retorn DC.",
+    "group": "node-detail"
+  },
+  {
+    "text": "PE entrada",
+    "group": "port"
+  },
+  {
+    "text": "PE carregador",
+    "group": "port"
+  },
+  {
+    "text": "PE endolls",
+    "group": "port"
+  },
+  {
+    "text": "PE termo",
+    "group": "port"
+  },
+  {
+    "text": "Carregador de port",
+    "group": "node-name"
+  },
+  {
+    "text": "230 V → 12 V",
+    "group": "node-sub"
+  },
+  {
+    "text": "Carregador compatible amb la química i capacitat del banc. Entrada L/N/PE; sortida positiva protegida cap a serveis, retorn a SYSTEM MINUS. Una sortida extra de motor requereix el model de carregador corresponent.",
+    "group": "node-detail"
+  },
+  {
+    "text": "AC: L / N / PE",
+    "group": "port"
+  },
+  {
+    "text": "DC: + / −",
+    "group": "port"
+  },
+  {
+    "text": "Endolls de bord",
+    "group": "node-name"
+  },
+  {
+    "text": "Circuit 230 V protegit",
+    "group": "node-sub"
+  },
+  {
+    "text": "Preses amb terra adequades a l’entorn. Endolls i interruptors en llocs protegits d’aigua. Mai connectar la sortida d’un inversor a una presa per realimentar el vaixell.",
+    "group": "node-detail"
+  },
+  {
+    "text": "Termo d’aigua",
+    "group": "node-name"
+  },
+  {
+    "text": "Resistència i termòstat",
+    "group": "node-sub"
+  },
+  {
+    "text": "Protecció pròpia, termòstat i connexió de protecció a la carcassa. La resistència ha de quedar coberta d’aigua abans d’alimentar-la. Consum segons placa.",
+    "group": "node-detail"
+  },
+  {
+    "text": "Retorn al banc 12 V",
+    "group": "node-name"
+  },
+  {
+    "text": "Sortida del carregador",
+    "group": "node-sub"
+  },
+  {
+    "text": "El positiu passa per la protecció dedicada propera al banc; el negatiu arriba a la barra de sistema, després del shunt. És el mateix banc de la pestanya 12 V.",
+    "group": "node-detail"
+  },
+  {
+    "text": "+ serveis protegit",
+    "group": "port"
+  },
+  {
+    "text": "− SYSTEM MINUS",
+    "group": "port"
+  },
+  {
+    "text": "+ principal",
+    "group": "edge-label"
+  },
+  {
+    "text": "Coure flexible estanyat · secció per calcular",
+    "group": "edge-cable"
+  },
+  {
+    "text": "Terminal d’anella als dos extrems; diàmetre segons espàrrec",
+    "group": "edge-connector"
+  },
+  {
+    "text": "Fusible principal al costat del banc",
+    "group": "edge-protection"
+  },
+  {
+    "text": "+ protegit",
+    "group": "edge-label"
+  },
+  {
+    "text": "Potència DC",
+    "group": "edge-cable"
+  },
+  {
+    "text": "Anelles crimpatades i fundes",
+    "group": "edge-connector"
+  },
+  {
+    "text": "+ general",
+    "group": "edge-label"
+  },
+  {
+    "text": "Anelles / bornes segons quadre",
+    "group": "edge-connector"
+  },
+  {
+    "text": "Fusible principal + proteccions de ramal",
+    "group": "edge-protection"
+  },
+  {
+    "text": "− banc",
+    "group": "edge-label"
+  },
+  {
+    "text": "Potència DC · només aquest cable al − del banc",
+    "group": "edge-cable"
+  },
+  {
+    "text": "Anelles segons banc i shunt",
+    "group": "edge-connector"
+  },
+  {
+    "text": "Sense càrregues ni carregadors al costat bateria",
+    "group": "edge-protection"
+  },
+  {
+    "text": "− sistema",
+    "group": "edge-label"
+  },
+  {
+    "text": "entrada retorns",
+    "group": "edge-b"
+  },
+  {
+    "text": "Anelles; espàrrecs segons model",
+    "group": "edge-connector"
+  },
+  {
+    "text": "Shunt dimensionat al corrent del banc",
+    "group": "edge-protection"
+  },
+  {
+    "text": "Mesura Vbatt+",
+    "group": "edge-label"
+  },
+  {
+    "text": "Vbatt+",
+    "group": "edge-b"
+  },
+  {
+    "text": "Fil de mesura del fabricant",
+    "group": "edge-cable"
+  },
+  {
+    "text": "Arnès amb portafusible subministrat",
+    "group": "edge-connector"
+  },
+  {
+    "text": "Petit fusible de mesura segons manual del shunt",
+    "group": "edge-protection"
+  },
+  {
+    "text": "Llums nav.",
+    "group": "edge-label"
+  },
+  {
+    "text": "+ posició / + fondeig",
+    "group": "edge-b"
+  },
+  {
+    "text": "Multiconductor marí · circuits separats",
+    "group": "edge-cable"
+  },
+  {
+    "text": "Bornes de quadre + connector de pal estanc multivia",
+    "group": "edge-connector"
+  },
+  {
+    "text": "Protecció per circuit; calibre segons cable i llums",
+    "group": "edge-protection"
+  },
+  {
+    "text": "Llums interior",
+    "group": "edge-label"
+  },
+  {
+    "text": "sortida protegida",
+    "group": "edge-a"
+  },
+  {
+    "text": "Bipolar flexible",
+    "group": "edge-cable"
+  },
+  {
+    "text": "Bornes i connectors amb enclavament",
+    "group": "edge-connector"
+  },
+  {
+    "text": "Fusible ramal interior",
+    "group": "edge-protection"
+  },
+  {
+    "text": "Arrencada",
+    "group": "edge-label"
+  },
+  {
+    "text": "Cable d’arrencada segons motor",
+    "group": "edge-cable"
+  },
+  {
+    "text": "Anelles i general de motor; solenoide OEM",
+    "group": "edge-connector"
+  },
+  {
+    "text": "Protecció d’arrencada segons fabricant i norma",
+    "group": "edge-protection"
+  },
+  {
+    "text": "Alternador B+",
+    "group": "edge-label"
+  },
+  {
+    "text": "Cable segons alternador",
+    "group": "edge-cable"
+  },
+  {
+    "text": "Anelles segons espàrrecs",
+    "group": "edge-connector"
+  },
+  {
+    "text": "Segons fabricant del motor; mai tallar en marxa",
+    "group": "edge-protection"
+  },
+  {
+    "text": "Càrrega serveis",
+    "group": "edge-label"
+  },
+  {
+    "text": "IN+",
+    "group": "edge-b"
+  },
+  {
+    "text": "Cable de càrrega DC",
+    "group": "edge-cable"
+  },
+  {
+    "text": "Anelles / bornes segons DC–DC",
+    "group": "edge-connector"
+  },
+  {
+    "text": "Fusible entrada al costat banc motor",
+    "group": "edge-protection"
+  },
+  {
+    "text": "DC–DC → serveis",
+    "group": "edge-label"
+  },
+  {
+    "text": "OUT+",
+    "group": "edge-a"
+  },
+  {
+    "text": "Bornes / anelles",
+    "group": "edge-connector"
+  },
+  {
+    "text": "Fusible sortida al costat banc serveis",
+    "group": "edge-protection"
+  },
+  {
+    "text": "Referència motor",
+    "group": "edge-label"
+  },
+  {
+    "text": "referència comuna",
+    "group": "edge-b"
+  },
+  {
+    "text": "Potència DC segons arquitectura",
+    "group": "edge-cable"
+  },
+  {
+    "text": "Anelles · costat SYSTEM MINUS",
+    "group": "edge-connector"
+  },
+  {
+    "text": "No connectar al costat bateria del shunt",
+    "group": "edge-protection"
+  },
+  {
+    "text": "Retorn motor",
+    "group": "edge-label"
+  },
+  {
+    "text": "Potència arrencada",
+    "group": "edge-cable"
+  },
+  {
+    "text": "Anelles · retorn motor de secció adequada",
+    "group": "edge-connector"
+  },
+  {
+    "text": "El corrent d’arrencada no travessa el shunt de serveis",
+    "group": "edge-protection"
+  },
+  {
+    "text": "Retorns DC–DC",
+    "group": "edge-label"
+  },
+  {
+    "text": "IN− / OUT−",
+    "group": "edge-a"
+  },
+  {
+    "text": "retorns",
+    "group": "edge-b"
+  },
+  {
+    "text": "Segons model aïllat / no aïllat",
+    "group": "edge-cable"
+  },
+  {
+    "text": "Bornes i anelles",
+    "group": "edge-connector"
+  },
+  {
+    "text": "Ambdós retorns al sistema segons manual",
+    "group": "edge-protection"
+  },
+  {
+    "text": "Bipolar marí",
+    "group": "edge-cable"
+  },
+  {
+    "text": "Terminal segons controlador",
+    "group": "edge-connector"
+  },
+  {
+    "text": "Fusible segons nevera i conductor",
+    "group": "edge-protection"
+  },
+  {
+    "text": "Cable solar resistent UV · parell",
+    "group": "edge-cable"
+  },
+  {
+    "text": "Connectors solars compatibles, sense barrejar famílies",
+    "group": "edge-connector"
+  },
+  {
+    "text": "Seccionament DC PV; fusibles de string si pertoquen",
+    "group": "edge-protection"
+  },
+  {
+    "text": "MPPT → banc",
+    "group": "edge-label"
+  },
+  {
+    "text": "BAT+",
+    "group": "edge-a"
+  },
+  {
+    "text": "Cable DC de càrrega",
+    "group": "edge-cable"
+  },
+  {
+    "text": "Fusible de sortida al costat banc",
+    "group": "edge-protection"
+  },
+  {
+    "text": "Retorn MPPT",
+    "group": "edge-label"
+  },
+  {
+    "text": "BAT−",
+    "group": "edge-a"
+  },
+  {
+    "text": "Cable DC",
+    "group": "edge-cable"
+  },
+  {
+    "text": "Costat sistema del shunt",
+    "group": "edge-protection"
+  },
+  {
+    "text": "Aigua",
+    "group": "edge-label"
+  },
+  {
+    "text": "Connexions segellades si humitat",
+    "group": "edge-connector"
+  },
+  {
+    "text": "Fusible bomba; relé només si necessari",
+    "group": "edge-protection"
+  },
+  {
+    "text": "Electrònica",
+    "group": "edge-label"
+  },
+  {
+    "text": "+ VHF / xarxa / AIS / plotter",
+    "group": "edge-b"
+  },
+  {
+    "text": "Ramals independents",
+    "group": "edge-cable"
+  },
+  {
+    "text": "Segons arnès de cada equip",
+    "group": "edge-connector"
+  },
+  {
+    "text": "Una protecció per alimentació; segons fabricant",
+    "group": "edge-protection"
+  },
+  {
+    "text": "Anella bateria + portafusible estanc",
+    "group": "edge-connector"
+  },
+  {
+    "text": "Fusible dedicat a l’origen abans del general",
+    "group": "edge-protection"
+  },
+  {
+    "text": "+ sentina",
+    "group": "edge-label"
+  },
+  {
+    "text": "Cable marí",
+    "group": "edge-cable"
+  },
+  {
+    "text": "Bornes protegides",
+    "group": "edge-connector"
+  },
+  {
+    "text": "Fusible sentina independent",
+    "group": "edge-protection"
+  },
+  {
+    "text": "AUTO / MANUAL",
+    "group": "edge-label"
+  },
+  {
+    "text": "sortida AUTO / MANUAL",
+    "group": "edge-a"
+  },
+  {
+    "text": "marró / marró-blanc",
+    "group": "edge-b"
+  },
+  {
+    "text": "Dos positius separats; cap pont entre ells",
+    "group": "edge-cable"
+  },
+  {
+    "text": "Empalmaments estancs crimpatats + termoretràctil adhesiu",
+    "group": "edge-connector"
+  },
+  {
+    "text": "Fusible segons model; control amb OFF de manteniment",
+    "group": "edge-protection"
+  },
+  {
+    "text": "Molinet",
+    "group": "edge-label"
+  },
+  {
+    "text": "sortida dedicada de potència",
+    "group": "edge-a"
+  },
+  {
+    "text": "disjuntor → contactor → motor",
+    "group": "edge-b"
+  },
+  {
+    "text": "Cables de potència; no des del petit interruptor del quadre",
+    "group": "edge-cable"
+  },
+  {
+    "text": "Anelles al contactor i motor segons manual",
+    "group": "edge-connector"
+  },
+  {
+    "text": "Derivació dedicada amb disjuntor i seccionador; confirmar punt d’origen",
+    "group": "edge-protection"
+  },
+  {
+    "text": "Serveis auxiliars",
+    "group": "edge-label"
+  },
+  {
+    "text": "+ 12 V convertidor",
+    "group": "edge-b"
+  },
+  {
+    "text": "Entrada segons convertidor; sortida USB regulada",
+    "group": "edge-connector"
+  },
+  {
+    "text": "Fusibles independents segons equip",
+    "group": "edge-protection"
+  },
+  {
+    "text": "Pilot",
+    "group": "edge-label"
+  },
+  {
+    "text": "Segons actuador i central",
+    "group": "edge-cable"
+  },
+  {
+    "text": "Arnès fabricant",
+    "group": "edge-connector"
+  },
+  {
+    "text": "Protecció pròpia del pilot",
+    "group": "edge-protection"
+  },
+  {
+    "text": "− equip",
+    "group": "edge-a"
+  },
+  {
+    "text": "Retorn DC dedicat",
+    "group": "edge-cable"
+  },
+  {
+    "text": "Terminal segons equip + anella a barra",
+    "group": "edge-connector"
+  },
+  {
+    "text": "Mateixa capacitat conductora que el positiu corresponent",
+    "group": "edge-protection"
+  },
+  {
+    "text": "+ permanent gas",
+    "group": "edge-label"
+  },
+  {
+    "text": "entrada fusible",
+    "group": "edge-b"
+  },
+  {
+    "text": "Cable DC marí",
+    "group": "edge-cable"
+  },
+  {
+    "text": "Anella al banc i portafusible adequat",
+    "group": "edge-connector"
+  },
+  {
+    "text": "Fusible propi a l’origen segons central i conductor",
+    "group": "edge-protection"
+  },
+  {
+    "text": "Alimentació alarma",
+    "group": "edge-label"
+  },
+  {
+    "text": "+ central",
+    "group": "edge-b"
+  },
+  {
+    "text": "Cable bipolar marí",
+    "group": "edge-cable"
+  },
+  {
+    "text": "Arnès / bornes de la central segons model",
+    "group": "edge-connector"
+  },
+  {
+    "text": "Alimentació abans del general; no depèn de la Pi",
+    "group": "edge-protection"
+  },
+  {
+    "text": "− alarma gas",
+    "group": "edge-label"
+  },
+  {
+    "text": "− central",
+    "group": "edge-a"
+  },
+  {
+    "text": "Bornes central i anella a barra",
+    "group": "edge-connector"
+  },
+  {
+    "text": "Costat SYSTEM MINUS del shunt",
+    "group": "edge-protection"
+  },
+  {
+    "text": "Senyal gas",
+    "group": "edge-label"
+  },
+  {
+    "text": "sonda compatible",
+    "group": "edge-a"
+  },
+  {
+    "text": "entrada sonda central",
+    "group": "edge-b"
+  },
+  {
+    "text": "Arnès original del fabricant",
+    "group": "edge-cable"
+  },
+  {
+    "text": "Connector i pinout de sonda segons central",
+    "group": "edge-connector"
+  },
+  {
+    "text": "No aplicar directament 12 V ni connectar al GPIO",
+    "group": "edge-protection"
+  },
+  {
+    "text": "Ramal Raspberry",
+    "group": "edge-label"
+  },
+  {
+    "text": "IN+ convertidor",
+    "group": "edge-b"
+  },
+  {
+    "text": "Bornes segons convertidor",
+    "group": "edge-connector"
+  },
+  {
+    "text": "Fusible de ramal segons entrada i conductor",
+    "group": "edge-protection"
+  },
+  {
+    "text": "− convertidor Pi",
+    "group": "edge-label"
+  },
+  {
+    "text": "IN−",
+    "group": "edge-a"
+  },
+  {
+    "text": "Bornes convertidor i barra",
+    "group": "edge-connector"
+  },
+  {
+    "text": "5 V → Raspberry",
+    "group": "edge-label"
+  },
+  {
+    "text": "sortida 5 V regulada",
+    "group": "edge-a"
+  },
+  {
+    "text": "Cable USB-C adequat al model",
+    "group": "edge-cable"
+  },
+  {
+    "text": "USB-C d’alimentació amb negociació requerida",
+    "group": "edge-connector"
+  },
+  {
+    "text": "Protecció de sortida i corrent suficient; mai 12 V a USB-C",
+    "group": "edge-protection"
+  },
+  {
+    "text": "5 V → hub",
+    "group": "edge-label"
+  },
+  {
+    "text": "entrada alimentació hub",
+    "group": "edge-b"
+  },
+  {
+    "text": "Cable de potència 5 V adequat",
+    "group": "edge-cable"
+  },
+  {
+    "text": "Connector del hub segons model; polaritat validada",
+    "group": "edge-connector"
+  },
+  {
+    "text": "Sortida protegida; no realimentar el port USB amunt",
+    "group": "edge-protection"
+  },
+  {
+    "text": "Dades USB",
+    "group": "edge-label"
+  },
+  {
+    "text": "USB host Raspberry",
+    "group": "edge-a"
+  },
+  {
+    "text": "USB amunt hub",
+    "group": "edge-b"
+  },
+  {
+    "text": "Cable USB de dades compatible",
+    "group": "edge-cable"
+  },
+  {
+    "text": "USB-A / USB-B / USB-C segons hub i Pi",
+    "group": "edge-connector"
+  },
+  {
+    "text": "Hub autoalimentat sense retorn d’energia cap a la Pi",
+    "group": "edge-protection"
+  },
+  {
+    "text": "USB càmera 1",
+    "group": "edge-label"
+  },
+  {
+    "text": "USB webcam 1",
+    "group": "edge-b"
+  },
+  {
+    "text": "Cable USB · dades i 5 V",
+    "group": "edge-cable"
+  },
+  {
+    "text": "Connector de la webcam i port del hub compatibles",
+    "group": "edge-connector"
+  },
+  {
+    "text": "Consum total, amplada de banda i llargada USB segons equips",
+    "group": "edge-protection"
+  },
+  {
+    "text": "USB càmera 2",
+    "group": "edge-label"
+  },
+  {
+    "text": "USB webcam 2",
+    "group": "edge-b"
+  },
+  {
+    "text": "Consum total i protecció del hub; no és PoE",
+    "group": "edge-protection"
+  },
+  {
+    "text": "Coaxial 50 Ω",
+    "group": "edge-label"
+  },
+  {
+    "text": "entrada coaxial",
+    "group": "edge-b"
+  },
+  {
+    "text": "Coaxial marí 50 Ω · pèrdues segons llargada",
+    "group": "edge-cable"
+  },
+  {
+    "text": "Connector antena per confirmar; entrada de coberta segons sistema",
+    "group": "edge-connector"
+  },
+  {
+    "text": "Segellat i fixació mecànica",
+    "group": "edge-protection"
+  },
+  {
+    "text": "Antena → VHF",
+    "group": "edge-label"
+  },
+  {
+    "text": "sortida coaxial",
+    "group": "edge-a"
+  },
+  {
+    "text": "Ray53/63/73: PL-259 mascle al cable → SO-239 femella a ràdio; altres models per confirmar",
+    "group": "edge-connector"
+  },
+  {
+    "text": "Antena exclusiva de la VHF",
+    "group": "edge-protection"
+  },
+  {
+    "text": "Antena compartida",
+    "group": "edge-label"
+  },
+  {
+    "text": "Segons ports reals del splitter",
+    "group": "edge-connector"
+  },
+  {
+    "text": "Splitter actiu compatible AIS transmissor",
+    "group": "edge-protection"
+  },
+  {
+    "text": "RF VHF",
+    "group": "edge-label"
+  },
+  {
+    "text": "Pont coaxial 50 Ω",
+    "group": "edge-cable"
+  },
+  {
+    "text": "Splitter segons model; PL-259 a Ray53/63/73",
+    "group": "edge-connector"
+  },
+  {
+    "text": "Mai un divisor de TV",
+    "group": "edge-protection"
+  },
+  {
+    "text": "RF AIS",
+    "group": "edge-label"
+  },
+  {
+    "text": "Segons connector de l’AIS, no suposar PL-259",
+    "group": "edge-connector"
+  },
+  {
+    "text": "AIS transceptor i splitter compatibles",
+    "group": "edge-protection"
+  },
+  {
+    "text": "GNSS antena",
+    "group": "edge-a"
+  },
+  {
+    "text": "Coaxial GNSS segons fabricant",
+    "group": "edge-cable"
+  },
+  {
+    "text": "TNC/BNC/SMA i actiu/passiu: confirmar model AIS",
+    "group": "edge-connector"
+  },
+  {
+    "text": "No és el mateix port que l’antena VHF",
+    "group": "edge-protection"
+  },
+  {
+    "text": "Sonda / corredera / vent",
+    "group": "edge-label"
+  },
+  {
+    "text": "cable transductor",
+    "group": "edge-a"
+  },
+  {
+    "text": "terminals segons i40",
+    "group": "edge-b"
+  },
+  {
+    "text": "Cable original del transductor",
+    "group": "edge-cable"
+  },
+  {
+    "text": "Pales femella 1/8 polzada (≈3,2 mm) segons manual; no Faston 6,3 mm genèric",
+    "group": "edge-connector"
+  },
+  {
+    "text": "Aquests fils no reben 12 V del quadre directament",
+    "group": "edge-protection"
+  },
+  {
+    "text": "SeaTalk 1",
+    "group": "edge-label"
+  },
+  {
+    "text": "SeaTalk tres contactes",
+    "group": "edge-a"
+  },
+  {
+    "text": "port groc SeaTalk",
+    "group": "edge-b"
+  },
+  {
+    "text": "Cable SeaTalk 1 i adaptació al convertidor",
+    "group": "edge-cable"
+  },
+  {
+    "text": "Cable de conversió SeaTalk del kit E22158; confirmar adaptació física i40/kit",
+    "group": "edge-connector"
+  },
+  {
+    "text": "Una sola alimentació del segment connectat",
+    "group": "edge-protection"
+  },
+  {
+    "text": "SeaTalkng backbone",
+    "group": "edge-label"
+  },
+  {
+    "text": "Cable backbone SeaTalkng",
+    "group": "edge-cable"
+  },
+  {
+    "text": "Connectors blaus de tronc, no spur blancs",
+    "group": "edge-connector"
+  },
+  {
+    "text": "Convertidor inserit al tronc lineal; sense terminador al punt intermedi",
+    "group": "edge-protection"
+  },
+  {
+    "text": "Spur → VHF",
+    "group": "edge-label"
+  },
+  {
+    "text": "spur blanc",
+    "group": "edge-a"
+  },
+  {
+    "text": "port de dades",
+    "group": "edge-b"
+  },
+  {
+    "text": "Spur SeaTalkng o adaptació Micro-C",
+    "group": "edge-cable"
+  },
+  {
+    "text": "Ray53/63/73: spur SeaTalkng; VHF Micro-C: adaptador de gènere correcte",
+    "group": "edge-connector"
+  },
+  {
+    "text": "No alimenta la potència de la ràdio",
+    "group": "edge-protection"
+  },
+  {
+    "text": "Posició GNSS",
+    "group": "edge-label"
+  },
+  {
+    "text": "spur GNSS",
+    "group": "edge-a"
+  },
+  {
+    "text": "Spur segons GPS",
+    "group": "edge-cable"
+  },
+  {
+    "text": "SeaTalkng / Micro-C amb adaptador si cal",
+    "group": "edge-connector"
+  },
+  {
+    "text": "Font i PGN de posició acceptats per la VHF",
+    "group": "edge-protection"
+  },
+  {
+    "text": "Dades → pantalla",
+    "group": "edge-label"
+  },
+  {
+    "text": "port xarxa",
+    "group": "edge-b"
+  },
+  {
+    "text": "Spur",
+    "group": "edge-cable"
+  },
+  {
+    "text": "SeaTalkng / Micro-C segons pantalla",
+    "group": "edge-connector"
+  },
+  {
+    "text": "Alimentació del plotter separada",
+    "group": "edge-protection"
+  },
+  {
+    "text": "AIS → xarxa",
+    "group": "edge-label"
+  },
+  {
+    "text": "port NMEA 2000",
+    "group": "edge-b"
+  },
+  {
+    "text": "Spur amb adaptador si cal",
+    "group": "edge-cable"
+  },
+  {
+    "text": "Micro-C / SeaTalkng segons AIS",
+    "group": "edge-connector"
+  },
+  {
+    "text": "Una sola ruta de dades triada",
+    "group": "edge-protection"
+  },
+  {
+    "text": "12 V xarxa",
+    "group": "edge-label"
+  },
+  {
+    "text": "spur potència",
+    "group": "edge-a"
+  },
+  {
+    "text": "spur blanc lliure",
+    "group": "edge-b"
+  },
+  {
+    "text": "Cable potència SeaTalkng",
+    "group": "edge-cable"
+  },
+  {
+    "text": "A06049 o equivalent indicat al manual",
+    "group": "edge-connector"
+  },
+  {
+    "text": "Fusible segons xarxa i fabricant; una sola injecció aquí",
+    "group": "edge-protection"
+  },
+  {
+    "text": "Extrem A",
+    "group": "edge-label"
+  },
+  {
+    "text": "backbone blau lliure",
+    "group": "edge-a"
+  },
+  {
+    "text": "terminador",
+    "group": "edge-b"
+  },
+  {
+    "text": "Sense extensió si extrem directe",
+    "group": "edge-cable"
+  },
+  {
+    "text": "Terminador SeaTalkng, p. ex. A06031",
+    "group": "edge-connector"
+  },
+  {
+    "text": "Exactament dos terminadors al tronc complet",
+    "group": "edge-protection"
+  },
+  {
+    "text": "Extrem B",
+    "group": "edge-label"
+  },
+  {
+    "text": "Un tap blanc no substitueix el terminador",
+    "group": "edge-protection"
+  },
+  {
+    "text": "GNSS → passarel·la",
+    "group": "edge-label"
+  },
+  {
+    "text": "Spur i adaptació si cal",
+    "group": "edge-cable"
+  },
+  {
+    "text": "SeaTalkng / Micro-C segons passarel·la",
+    "group": "edge-connector"
+  },
+  {
+    "text": "Passarel·la amb sortida de posició NMEA 0183",
+    "group": "edge-protection"
+  },
+  {
+    "text": "Posició → DSC",
+    "group": "edge-label"
+  },
+  {
+    "text": "RX+ / RX−",
+    "group": "edge-b"
+  },
+  {
+    "text": "Parell de dades segons interfície",
+    "group": "edge-cable"
+  },
+  {
+    "text": "Bornes protegides; colors segons manuals dels dos models",
+    "group": "edge-connector"
+  },
+  {
+    "text": "Baud i sentències compatibles; no unir sortides TX entre si",
+    "group": "edge-protection"
+  },
+  {
+    "text": "ramal protegit + / retorn −",
+    "group": "edge-a"
+  },
+  {
+    "text": "entrada alimentació + / −",
+    "group": "edge-b"
+  },
+  {
+    "text": "Parell alimentació DC; no és NMEA",
+    "group": "edge-cable"
+  },
+  {
+    "text": "Arnès original i unió protegida segons equip",
+    "group": "edge-connector"
+  },
+  {
+    "text": "Protecció individual segons fabricant; retorn a SYSTEM MINUS",
+    "group": "edge-protection"
+  },
+  {
+    "text": "PE de port",
+    "group": "edge-label"
+  },
+  {
+    "text": "Verd/groc dins el cable de port",
+    "group": "edge-cable"
+  },
+  {
+    "text": "Contacte PE de la mateixa connexió marina",
+    "group": "edge-connector"
+  },
+  {
+    "text": "Continuïtat PE del port fins al vaixell",
+    "group": "edge-protection"
+  },
+  {
+    "text": "L / N",
+    "group": "edge-label"
+  },
+  {
+    "text": "L / N port",
+    "group": "edge-a"
+  },
+  {
+    "text": "Cable marí de port",
+    "group": "edge-cable"
+  },
+  {
+    "text": "IEC 60309 blau 2P+E d’exemple; confirmar entrada",
+    "group": "edge-connector"
+  },
+  {
+    "text": "Protecció de port + protecció de bord",
+    "group": "edge-protection"
+  },
+  {
+    "text": "Cable AC segons instal·lació",
+    "group": "edge-cable"
+  },
+  {
+    "text": "Bornes aprovades amb punteres si s’admeten",
+    "group": "edge-connector"
+  },
+  {
+    "text": "General bipolar i protecció adequada",
+    "group": "edge-protection"
+  },
+  {
+    "text": "L / N → primari",
+    "group": "edge-label"
+  },
+  {
+    "text": "L / N protecció primari",
+    "group": "edge-b"
+  },
+  {
+    "text": "Cable AC segons transformador",
+    "group": "edge-cable"
+  },
+  {
+    "text": "Bornes protegides segons model",
+    "group": "edge-connector"
+  },
+  {
+    "text": "Tall bipolar i sobreintensitat segons cable i fabricant",
+    "group": "edge-protection"
+  },
+  {
+    "text": "Alimentació primari",
+    "group": "edge-label"
+  },
+  {
+    "text": "INPUT L / N",
+    "group": "edge-b"
+  },
+  {
+    "text": "Bornes INPUT originals; punteres si s’admeten",
+    "group": "edge-connector"
+  },
+  {
+    "text": "Protecció primari dimensionada; ventilació del transformador",
+    "group": "edge-protection"
+  },
+  {
+    "text": "Aïllament · sense fil",
+    "group": "edge-label"
+  },
+  {
+    "text": "bobinat primari",
+    "group": "edge-a"
+  },
+  {
+    "text": "bobinat secundari",
+    "group": "edge-b"
+  },
+  {
+    "text": "No és un cable: transferència magnètica interna",
+    "group": "edge-cable"
+  },
+  {
+    "text": "Cap connector entre bobinats; cap pont galvànic",
+    "group": "edge-connector"
+  },
+  {
+    "text": "Aquest traç discontinu representa aïllament, no continuïtat elèctrica",
+    "group": "edge-protection"
+  },
+  {
+    "text": "L′ / N′ aïllats",
+    "group": "edge-label"
+  },
+  {
+    "text": "OUTPUT L′ / N′",
+    "group": "edge-a"
+  },
+  {
+    "text": "entrada diferencial L′ / N′",
+    "group": "edge-b"
+  },
+  {
+    "text": "Cable AC segons càrrega i fabricant",
+    "group": "edge-cable"
+  },
+  {
+    "text": "Bornes OUTPUT originals",
+    "group": "edge-connector"
+  },
+  {
+    "text": "Diferencial a la sortida; unió N′–PE de font abans del diferencial",
+    "group": "edge-protection"
+  },
+  {
+    "text": "PE d’entrada",
+    "group": "edge-label"
+  },
+  {
+    "text": "INPUT PE de port",
+    "group": "edge-b"
+  },
+  {
+    "text": "Verd/groc de protecció",
+    "group": "edge-cable"
+  },
+  {
+    "text": "Borna INPUT PE indicada al manual",
+    "group": "edge-connector"
+  },
+  {
+    "text": "Separat del PE de bord a flotació; no eliminar el PE del primari",
+    "group": "edge-protection"
+  },
+  {
+    "text": "PE de bord",
+    "group": "edge-label"
+  },
+  {
+    "text": "OUTPUT PE / carcassa segons manual",
+    "group": "edge-a"
+  },
+  {
+    "text": "barra PE bord",
+    "group": "edge-b"
+  },
+  {
+    "text": "Borns PE del secundari i carcassa segons manual",
+    "group": "edge-connector"
+  },
+  {
+    "text": "Unió de font N′–PE al secundari; sense pont al PE de port a flotació",
+    "group": "edge-protection"
+  },
+  {
+    "text": "entrada quadre",
+    "group": "edge-b"
+  },
+  {
+    "text": "Cable AC",
+    "group": "edge-cable"
+  },
+  {
+    "text": "Bornes cobertes",
+    "group": "edge-connector"
+  },
+  {
+    "text": "Proteccions de quadre",
+    "group": "edge-protection"
+  },
+  {
+    "text": "PE continu",
+    "group": "edge-label"
+  },
+  {
+    "text": "barra PE",
+    "group": "edge-b"
+  },
+  {
+    "text": "Bornes PE dedicades",
+    "group": "edge-connector"
+  },
+  {
+    "text": "Mai interruptor ni fusible al PE",
+    "group": "edge-protection"
+  },
+  {
+    "text": "Segons aïllador certificat",
+    "group": "edge-connector"
+  },
+  {
+    "text": "PE conserva funció de protecció",
+    "group": "edge-protection"
+  },
+  {
+    "text": "No confondre amb transformador d’aïllament",
+    "group": "edge-protection"
+  },
+  {
+    "text": "L / N ramal",
+    "group": "edge-label"
+  },
+  {
+    "text": "Cable AC segons ramal",
+    "group": "edge-cable"
+  },
+  {
+    "text": "Bornes / presa segons equip",
+    "group": "edge-connector"
+  },
+  {
+    "text": "Protecció independent segons càrrega i conductor",
+    "group": "edge-protection"
+  },
+  {
+    "text": "PE equip",
+    "group": "edge-label"
+  },
+  {
+    "text": "Verd/groc",
+    "group": "edge-cable"
+  },
+  {
+    "text": "Terminal de protecció segons equip",
+    "group": "edge-connector"
+  },
+  {
+    "text": "Continuïtat PE, sense seccionament",
+    "group": "edge-protection"
+  },
+  {
+    "text": "DC+ / DC−",
+    "group": "edge-label"
+  },
+  {
+    "text": "sortida + / −",
+    "group": "edge-a"
+  },
+  {
+    "text": "+ serveis / SYSTEM MINUS",
+    "group": "edge-b"
+  },
+  {
+    "text": "Cable DC segons carregador",
+    "group": "edge-cable"
+  },
+  {
+    "text": "Fusible al costat banc; retorn després del shunt",
+    "group": "edge-protection"
+  },
+  {
+    "text": "Terminal d’anella",
+    "group": "connector-name"
+  },
+  {
+    "text": "Diàmetre del forat segons espàrrec i barrilet segons secció. Coure estanyat, crimpat amb matriu apropiada i aïllament adhesiu.",
+    "group": "connector-desc"
+  },
+  {
+    "text": "No triar M8/M10 sense mirar la borna real. Parell de collament segons fabricant.",
+    "group": "connector-check"
+  },
+  {
+    "text": "Pala de transductor i40",
+    "group": "connector-name"
+  },
+  {
+    "text": "Sensor · no és SeaTalk",
+    "group": "connector-family"
+  },
+  {
+    "text": "El manual i40 especifica pales de reposició d’1/8 de polzada, aproximadament 3,2 mm. No són els connectors de xarxa.",
+    "group": "connector-desc"
+  },
+  {
+    "text": "Comprovar amplada, gruix, calibre del cable i mapa del transductor abans de crimpar.",
+    "group": "connector-check"
+  },
+  {
+    "text": "Bus antic Raymarine",
+    "group": "connector-family"
+  },
+  {
+    "text": "Dades i alimentació del segment i40. No endolla directament a SeaTalkng. Per convertir dades: E22158 amb el cable de conversió adequat.",
+    "group": "connector-desc"
+  },
+  {
+    "text": "No interpretar la forma dibuixada com a numeració de pins. Una sola alimentació del segment connectat.",
+    "group": "connector-check"
+  },
+  {
+    "text": "SeaTalkng",
+    "group": "connector-name"
+  },
+  {
+    "text": "Backbone blau · spur blanc",
+    "group": "connector-family"
+  },
+  {
+    "text": "El tronc i les derivacions utilitzen cables diferents. El segment SeaTalk 1 es connecta al port groc del convertidor.",
+    "group": "connector-desc"
+  },
+  {
+    "text": "Dos terminadors als extrems del tronc; taps als ports lliures. No fer una estrella de backbones.",
+    "group": "connector-check"
+  },
+  {
+    "text": "NMEA 2000 · Micro-C",
+    "group": "connector-name"
+  },
+  {
+    "text": "Dades + alimentació de xarxa",
+    "group": "connector-family"
+  },
+  {
+    "text": "Connector de xarxa de cinc contactes. Una interfície SeaTalkng requereix adaptació física; no és un convertidor de protocol.",
+    "group": "connector-desc"
+  },
+  {
+    "text": "Gènere i port del dispositiu segons model. La potència de VHF/AIS no s’assumeix subministrada pel bus.",
+    "group": "connector-check"
+  },
+  {
+    "text": "PL-259 ↔ SO-239",
+    "group": "connector-name"
+  },
+  {
+    "text": "VHF · coaxial 50 Ω",
+    "group": "connector-family"
+  },
+  {
+    "text": "PL-259 mascle al cable s’acobla amb SO-239 femella d’una ràdio que utilitzi aquest connector, com Ray53/63/73.",
+    "group": "connector-desc"
+  },
+  {
+    "text": "L’altre extrem depèn de l’antena o splitter. GNSS pot utilitzar connectors diferents.",
+    "group": "connector-check"
+  },
+  {
+    "text": "Empalmament estanc",
+    "group": "connector-name"
+  },
+  {
+    "text": "Sentina · exterior",
+    "group": "connector-family"
+  },
+  {
+    "text": "Unió crimpatada i segellada amb termoretràctil adhesiu, adequada al cable. Situar-la fora de l’aigua i amb alleujament de tracció.",
+    "group": "connector-desc"
+  },
+  {
+    "text": "Un connector etiquetat IP no és necessàriament submergible permanentment.",
+    "group": "connector-check"
+  },
+  {
+    "text": "Connector fotovoltaic",
+    "group": "connector-name"
+  },
+  {
+    "text": "PV · DC",
+    "group": "connector-family"
+  },
+  {
+    "text": "Connectors de la mateixa família i fabricant compatibles amb el cable i les plaques. La tensió PV no és necessàriament 12 V.",
+    "group": "connector-desc"
+  },
+  {
+    "text": "No obrir sota càrrega. Verificar polaritat i Voc de la configuració.",
+    "group": "connector-check"
+  },
+  {
+    "text": "Entrada de port 2P+E",
+    "group": "connector-name"
+  },
+  {
+    "text": "230 V AC",
+    "group": "connector-family"
+  },
+  {
+    "text": "Exemple IEC 60309 blau. Alguns vaixells utilitzen entrades marines diferents; cal identificar el sistema abans de comprar.",
+    "group": "connector-desc"
+  },
+  {
+    "text": "L, N i PE són conductors diferents. El PE no és un negatiu DC.",
+    "group": "connector-check"
+  },
+  {
+    "text": "Bornes NMEA 0183",
+    "group": "connector-name"
+  },
+  {
+    "text": "TX+/TX− → RX+/RX−",
+    "group": "connector-family"
+  },
+  {
+    "text": "Interfície de dades, normalment amb fils de l’arnès original i bornes protegides. Requereix el protocol i la velocitat correctes.",
+    "group": "connector-desc"
+  },
+  {
+    "text": "Colors i interfícies diferencials/single-ended segons manuals; no utilitzar un pinout genèric.",
+    "group": "connector-check"
+  },
+  {
+    "text": "Potència · 12 V",
+    "group": "layer"
+  },
+  {
+    "text": "De la bateria a cada consumidor",
+    "group": "layer"
+  },
+  {
+    "text": "Positiu protegit i retorn dedicat. La sentina té una alimentació permanent independent del general.",
+    "group": "layer"
+  },
+  {
+    "text": "Dades i antenes",
+    "group": "layer"
+  },
+  {
+    "text": "Cada connector, al seu lloc",
+    "group": "layer"
+  },
+  {
+    "text": "Les dades, la radiofreqüència i l’alimentació són connexions diferents. Selecciona una línia per veure els dos extrems.",
+    "group": "layer"
+  },
+  {
+    "text": "Port · 230 V",
+    "group": "layer"
+  },
+  {
+    "text": "L’entrada de port, separada del 12 V",
+    "group": "layer"
+  },
+  {
+    "text": "Tria transformador d’aïllament o connexió directa amb PE continu. El secundari aïllat conserva les seves proteccions i terra de bord.",
+    "group": "layer"
+  },
+  {
+    "text": "Raspberry Pi · alimentació i perifèrics USB",
+    "group": "source"
+  },
+  {
+    "text": "Nereus · alarma marina GLP/CO · manual de referència",
+    "group": "source"
+  },
+  {
+    "text": "Raymarine i40 · 81340-2 · cap. 4, pp. 24–27",
+    "group": "source"
+  },
+  {
+    "text": "Raymarine SeaTalk → SeaTalkng · 87255-1",
+    "group": "source"
+  },
+  {
+    "text": "Raymarine Ray53 / Ray63 / Ray73 · 81381 rev. 9",
+    "group": "source"
+  },
+  {
+    "text": "Raymarine AIS · connexions NMEA 0183 · 87326 rev. 7",
+    "group": "source"
+  },
+  {
+    "text": "Victron SmartShunt · instal·lació",
+    "group": "source"
+  },
+  {
+    "text": "Victron Wiring Unlimited · cablejat DC",
+    "group": "source"
+  },
+  {
+    "text": "Victron Wiring Unlimited · cablejat AC",
+    "group": "source"
+  },
+  {
+    "text": "Victron · transformador d’aïllament · instal·lació",
+    "group": "source"
+  },
+  {
+    "text": "Victron · aïllament galvànic i soft-start",
+    "group": "source"
+  },
+  {
+    "text": "Phoenix Contact · protecció contra sobretensions",
+    "group": "source"
+  },
+  {
+    "text": "Xylem / Rule · bomba automàtica, esquema de tres fils",
+    "group": "source"
+  },
+  {
+    "text": "Negre",
+    "group": "transducer"
+  },
+  {
+    "text": "Piezoceràmic −",
+    "group": "transducer"
+  },
+  {
+    "text": "Blau",
+    "group": "transducer"
+  },
+  {
+    "text": "Piezoceràmic +",
+    "group": "transducer"
+  },
+  {
+    "text": "Malla",
+    "group": "transducer"
+  },
+  {
+    "text": "Pantalla / 0 V",
+    "group": "transducer"
+  },
+  {
+    "text": "Marró",
+    "group": "transducer"
+  },
+  {
+    "text": "Temperatura 0 V",
+    "group": "transducer"
+  },
+  {
+    "text": "Blanc",
+    "group": "transducer"
+  },
+  {
+    "text": "Senyal temperatura",
+    "group": "transducer"
+  },
+  {
+    "text": "Velocitat 0 V / pantalla",
+    "group": "transducer"
+  },
+  {
+    "text": "Verd",
+    "group": "transducer"
+  },
+  {
+    "text": "Senyal velocitat",
+    "group": "transducer"
+  },
+  {
+    "text": "Vermell",
+    "group": "transducer"
+  },
+  {
+    "text": "Alimentació sensor velocitat",
+    "group": "transducer"
+  },
+  {
+    "text": "Rotavecta rotor +",
+    "group": "transducer"
+  },
+  {
+    "text": "Rotavecta rotor −",
+    "group": "transducer"
+  }
+]

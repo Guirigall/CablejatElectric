@@ -1,0 +1,240 @@
+Bord · Atles elèctric del veler	Bord · Atlas eléctrico del velero	Bord · Yacht electrical atlas
+Bord, inici	Bord, inicio	Bord, home
+ATLES ELÈCTRIC	ATLAS ELÉCTRICO	ELECTRICAL ATLAS
+Seccions	Secciones	Sections
+Instal·lació	Instalación	Installation
+Connectors	Conectores	Connectors
+Llista de connexions	Lista de conexiones	Connection list
+Guia i fonts	Guía y fuentes	Guide and sources
+Idioma	Idioma	Language
+Aparença	Apariencia	Appearance
+Automàtica	Automática	Automatic
+Clara	Clara	Light
+Fosca	Oscura	Dark
+Instal·la l’app ↗	Instala la app ↗	Install app ↗
+Preparant fora de línia	Preparando modo sin conexión	Preparing offline mode
+DEL PAL A LA SENTINA · 12 V + 230 V	DEL MÁSTIL A LA SENTINA · 12 V + 230 V	FROM MAST TO BILGE · 12 V + 230 V
+Entén cada fil.	Entiende cada cable.	Understand every wire.
+Connecta tot el veler.	Conecta todo el velero.	Connect the whole boat.
+Explora el recorregut del corrent i de les dades. Toca un equip o un cable per veure què hi va connectat, amb quin connector i amb quina protecció.	Explora el recorrido de corriente y datos. Toca un equipo o cable para ver sus conexiones, conectores y protecciones.	Explore power and data paths. Tap a device or cable to inspect its connections, connectors and protection.
+Un veler. Quatre xarxes diferents.	Un velero. Cuatro redes distintas.	One yacht. Four different networks.
+Dades	Datos	Data
+01 / El teu equipament	01 / Tu equipamiento	01 / Your equipment
+Configura VHF, i40 i AIS	Configura VHF, i40 y AIS	Configure VHF, i40 and AIS
+Nom del projecte	Nombre del proyecto	Project name
+Nom del veler	Nombre del velero	Boat name
+Connexió de la VHF	Conexión de la VHF	VHF connection
+Model encara per confirmar	Modelo por confirmar	Model not yet confirmed
+Una altra VHF · NMEA 2000	Otra VHF · NMEA 2000	Another VHF · NMEA 2000
+VHF amb NMEA 0183	VHF con NMEA 0183	VHF with NMEA 0183
+Sense AIS	Sin AIS	No AIS
+Receptor integrat a la VHF	Receptor integrado en VHF	Receiver built into VHF
+Transceptor extern + splitter	Transceptor externo + splitter	External transceiver + splitter
+Alarma de gas autònoma	Alarma de gas autónoma	Independent gas alarm
+Raspberry Pi + dues webcams USB	Raspberry Pi + dos webcams USB	Raspberry Pi + two USB webcams
+Transformador d’aïllament marí	Transformador de aislamiento marino	Marine isolation transformer
+Aïllador galvànic al PE de port	Aislador galvánico en PE de puerto	Galvanic isolator in shore PE
+Perfil de referència amb bancs separats i càrrega DC–DC. Els models, seccions i calibres pendents es poden anotar a cada connexió. No posa bancs en paral·lel ni inclou inversor.	Perfil de referencia con bancos separados y carga DC–DC. Anota los modelos, secciones y calibres pendientes en cada conexión. No pone bancos en paralelo ni incluye inversor.	Reference profile with separate banks and DC–DC charging. Record pending models, cable sizes and ratings at each connection. It does not parallel banks or include an inverter.
+Xarxa a explorar	Red a explorar	Network to explore
+12 V · Potència	12 V · Potencia	12 V · Power
+230 V · Port	230 V · Puerto	230 V · Shore
+Imprimeix / PDF ↗	Imprime / PDF ↗	Print / PDF ↗
+02 / EXPLORA EL CIRCUIT	02 / EXPLORA EL CIRCUITO	02 / EXPLORE THE CIRCUIT
+Segueix un recorregut	Sigue un recorrido	Follow a route
+Exploració lliure	Exploración libre	Free exploration
+i40 → pantalla	i40 → pantalla	i40 → display
+Antena → VHF / AIS	Antena → VHF / AIS	Antenna → VHF / AIS
+Bateria → sentina automàtica	Batería → sentina automática	Battery → automatic bilge
+El retorn i el shunt	El retorno y el shunt	Return path and shunt
+Sensor i alarma de gas	Sensor y alarma de gas	Gas sensor and alarm
+Raspberry → dues webcams	Raspberry → dos webcams	Raspberry Pi → two webcams
+Port → carregador → bateria	Puerto → cargador → batería	Shore → charger → battery
+Pas anterior	Paso anterior	Previous step
+Tria un recorregut	Elige un recorrido	Choose a route
+Pas següent	Paso siguiente	Next step
+Càrrega	Carga	Charging
+┄ Aïllament magnètic (no cable)	┄ Aislamiento magnético (sin cable)	┄ Magnetic isolation (not a wire)
+Mostra retorns DC	Muestra retornos DC	Show DC returns
+Atenua cables no seleccionats	Atenúa cables no seleccionados	Dim unselected wires
+Cerca un equip o cable…	Busca equipo o cable…	Search equipment or cable…
+Cerca al circuit	Busca en el circuito	Search the circuit
+Redueix el zoom	Reduce el zoom	Zoom out
+Ajusta l’esquema	Ajusta el esquema	Fit diagram
+Amplia el zoom	Amplía el zoom	Zoom in
+Esquema desplaçable; també pots seleccionar equips a la llista inferior	Esquema desplazable; también puedes elegir equipos en la lista inferior	Scrollable diagram; equipment can also be selected in the list below
+Esquema interactiu de connexions	Esquema interactivo de conexiones	Interactive connection diagram
+Equips d’aquesta xarxa · selecció accessible	Equipos de esta red · selección accesible	Equipment on this network · accessible selection
+Dibuixos de components orientatius, sense escala ni pinout. Cables horitzontals i verticals; els encreuaments amb un petit tall no són unions. Cada terminal es correspon amb el codi d’un cable. Les fletxes indiquen el recorregut explicat; una xarxa de dades pot ser bidireccional.	Dibujos orientativos, sin escala ni pinout. Cables horizontales y verticales; los cruces con un pequeño corte no son uniones. Cada terminal corresponde al código de un cable. Las flechas indican el recorrido explicado; los datos pueden ser bidireccionales.	Illustrative component drawings, not to scale or a pinout. Wires run horizontally and vertically; crossings with a small gap are not junctions. Each terminal corresponds to a cable ID. Arrows show the explained route; data networks may be bidirectional.
+Detall de l’element seleccionat	Detalle del elemento seleccionado	Selected item details
+↑ Torna a l’esquema	↑ Vuelve al esquema	↑ Back to diagram
+03 / PROVA LA LÒGICA	03 / PRUEBA LA LÓGICA	03 / CHECK THE LOGIC
+Què continua alimentat?	¿Qué sigue alimentado?	What stays powered?
+Prova el general i les fonts. És una comprovació de connexions, sense simulació de càrrega ni de l’estat real de la bateria.	Prueba el general y las fuentes. Comprueba conexiones, sin simular carga ni estado real de batería.	Try the main switch and sources. This checks connections without simulating charging or actual battery state.
+General serveis	General de servicios	House main switch
+Motor en marxa	Motor en marcha	Engine running
+Port connectat	Puerto conectado	Shore connected
+Plaques actives	Placas activas	Solar panels active
+Aigua a la sentina	Agua en la sentina	Water in the bilge
+OFF · manteniment	OFF · mantenimiento	OFF · maintenance
+ABANS DE TRIAR EL CABLE	ANTES DE ELEGIR EL CABLE	BEFORE CHOOSING THE CABLE
+Compatibilitat del teu perfil	Compatibilidad de tu perfil	Your profile compatibility
+Els senyals de transductor, el negatiu DC, el PE, el blindatge i la radiofreqüència tenen funcions diferents. No s’han d’unir per semblança de connector o color.	Las señales de transductor, negativo DC, PE, blindaje y radiofrecuencia tienen funciones distintas. No unirlos por similitud de conector o color.	Transducer signals, DC negative, PE, shielding and radio frequency serve different purposes. Do not join them because connectors or colours look alike.
+LA PEÇA ENTRE DOS EQUIPS	LA PIEZA ENTRE DOS EQUIPOS	THE PART BETWEEN TWO DEVICES
+Biblioteca de connectors	Biblioteca de conectores	Connector library
+Dibuixos de reconeixement esquemàtics, sense orientació de pins ni escala. Mira també els dos extrems de cada connexió a l’atles.	Dibujos esquemáticos de reconocimiento, sin orientación de pines ni escala. Consulta ambos extremos de cada conexión en el atlas.	Schematic recognition drawings without pin orientation or scale. Also inspect both ends of each connection in the atlas.
+DEL DIBUIX A LA LLISTA	DEL DIBUJO A LA LISTA	FROM DIAGRAM TO LIST
+Cables, extrems i components	Cables, extremos y componentes	Cables, endpoints and components
+Llista de connexions del perfil actiu. Agrupa funcions: alguns ramals necessiten diversos conductors o adaptadors. No és un pressupost ni una llista de compra amb quantitats tancades.	Lista de conexiones del perfil activo. Agrupa funciones: algunos ramales necesitan varios conductores o adaptadores. No es un presupuesto ni una lista de compra con cantidades cerradas.	Connection list for the active profile. Functions are grouped: some branches need several conductors or adapters. This is not a quotation or a final bill of materials.
+Filtra xarxa	Filtra red	Filter network
+Totes	Todas	All
+Descarrega CSV ↓	Descarga CSV ↓	Download CSV ↓
+Desa projecte JSON ↓	Guarda proyecto JSON ↓	Save project JSON ↓
+Obre projecte JSON	Abre proyecto JSON	Open project JSON
+Connexions del projecte	Conexiones del proyecto	Project connections
+Codi / xarxa	Código / red	ID / network
+Des de → fins a	Desde → hasta	From → to
+Connectors / cable	Conectores / cable	Connectors / cable
+Protecció / anotacions	Protección / notas	Protection / notes
+Detall	Detalle	Details
+DOCUMENTAR ABANS DE CONNECTAR	DOCUMENTAR ANTES DE CONECTAR	DOCUMENT BEFORE CONNECTING
+Com llegir aquest atles	Cómo leer este atlas	How to read this atlas
+Una base de treball per entendre i documentar una instal·lació de creuer de 32 peus. Els models dels equips defineixen el cablejat final.	Base de trabajo para entender y documentar la instalación de un crucero de 32 pies. Los modelos de equipo definen el cableado final.	A working reference for understanding and documenting a 32-foot cruising yacht installation. Equipment models determine final wiring.
+Energia, dades i RF	Energía, datos y RF	Power, data and RF
+12 V alimenta els equips; SeaTalk i NMEA comparteixen dades; el coaxial porta radiofreqüència. La VHF pot necessitar totes tres connexions i una font de posició GNSS. Una sonda i40 no substitueix el GPS.	12 V alimenta equipos; SeaTalk y NMEA comparten datos; el coaxial lleva RF. La VHF puede necesitar las tres conexiones y una fuente GNSS. Una sonda i40 no sustituye al GPS.	12 V powers devices; SeaTalk and NMEA share data; coax carries RF. A radio may need all three connections and a GNSS position source. An i40 depth sensor does not replace GPS.
+Shunts i relés	Shunts y relés	Shunts and relays
+El shunt mesura el banc de serveis. El contactor del molinet commuta potència. El DC–DC regula la càrrega entre bancs i aquí substitueix el relé de càrrega. Un relé no és necessari a cada consumidor: depèn del corrent i del comandament.	El shunt mide el banco de servicios. El contactor del molinete conmuta potencia. El DC–DC regula la carga entre bancos y aquí sustituye al relé de carga. No todos los consumidores necesitan relé: depende de corriente y mando.	The shunt measures the house bank. The windlass contactor switches power. DC–DC regulates charging between banks and replaces a charge relay here. Not every load needs a relay: it depends on current and control ratings.
+Proteccions i seccions	Protecciones y secciones	Protection and cable sizes
+Un fusible protegeix el cable. El valor depèn de la intensitat, temperatura, agrupament, llargada i poder de tall. El càlcul de caiguda de tensió només és orientatiu: no comprova ampacitat ni tria fusibles automàticament.	El fusible protege el cable. Su valor depende de corriente, temperatura, agrupamiento, longitud y capacidad de corte. La caída de tensión es orientativa: no comprueba ampacidad ni elige fusibles automáticamente.	A fuse protects the cable. Its rating depends on current, temperature, grouping, length and interrupt capacity. Voltage-drop estimates do not verify ampacity or select fuses automatically.
+230 V i protecció	230 V y protección	230 V and protection
+Es mostren L/N i PE per separat. Pots triar transformador d’aïllament o connexió directa amb aïllador galvànic opcional. El traç discontinu entre bobinats és una transferència magnètica, no un fil. Amb transformador es mostren primari, secundari, PE separats i diferencial de sortida. El soft-start limita l’encesa pròpia; per a pics cal estudiar un SPD i per a sobretensió sostinguda una protecció de tall. La unió PE/DC/estructura queda pendent del projecte. Cal verificar el disseny complet amb un instal·lador nàutic abans de muntar-lo.	L/N y PE se muestran separados. Elige transformador de aislamiento o conexión directa con aislador galvánico opcional. El trazo discontinuo entre bobinados es transferencia magnética, no cable. Con transformador se muestran primario, secundario, PE separados y diferencial de salida. Soft-start limita el encendido propio; estudiar SPD para transitorios y corte para sobretensión sostenida. La unión PE/DC/estructura requiere proyecto. Revisar el diseño con un instalador náutico antes de montarlo.	L/N and PE are shown separately. Choose an isolation transformer or direct connection with an optional galvanic isolator. The dashed winding link represents magnetic transfer, not wire. The transformer option shows primary, secondary, separate PE domains and an output RCD. Soft-start limits its own inrush; assess an SPD for transients and a disconnect for sustained overvoltage. PE/DC/structure bonding requires design. Have a marine installer review the complete design before assembly.
+Documentació de referència	Documentación de referencia	Reference documentation
+Consulta del 6 de novembre de 2026. Els enllaços als manuals necessiten internet; l’atles i les teves anotacions funcionen fora de línia.	Consulta del 6 de noviembre de 2026. Los manuales necesitan internet; el atlas y tus notas funcionan sin conexión.	Sources checked on 6 November 2026. Manual links need internet; the atlas and your notes work offline.
+Instal·la’l al mòbil	Instálalo en el móvil	Install on your phone
+Publica el contingut de	Publica el contenido de	Publish the contents of
+en un allotjament HTTPS. Obre l’adreça amb Chrome a Android, espera «Disponible fora de línia» i tria «Instal·la l’aplicació» al menú del navegador. A iPhone: Safari → Comparteix → Afegeix a la pantalla d’inici.	en alojamiento HTTPS. Abre la URL con Chrome en Android, espera «Disponible sin conexión» y elige «Instalar aplicación». En iPhone: Safari → Compartir → Añadir a pantalla de inicio.	on HTTPS hosting. Open the URL in Android Chrome, wait for “Available offline” and choose “Install app”. On iPhone: Safari → Share → Add to Home Screen.
+Les anotacions es guarden només en aquest navegador i aquest origen. Exporta el projecte JSON abans de canviar de dispositiu o esborrar les dades del lloc.	Las notas solo se guardan en este navegador y origen. Exporta JSON antes de cambiar de dispositivo o borrar los datos del sitio.	Notes are stored only in this browser and origin. Export project JSON before changing devices or clearing site data.
+Comprova actualitzacions	Comprueba actualizaciones	Check for updates
+Llegeix el README.md ↗	Lee el README.md ↗	Read README.md ↗
+bord / Electricitat a vela	bord / Electricidad a vela	bord / Sailing electrics
+v1.3 · Atles documentat, adaptable al teu equipament	v1.3 · Atlas documentado, adaptable a tu equipo	v1.3 · Documented atlas, adaptable to your equipment
+Documentació ↗	Documentación ↗	Documentation ↗
+No s’ha pogut desar al navegador. Exporta el projecte JSON.	No se ha podido guardar en el navegador. Exporta el proyecto JSON.	Could not save in this browser. Export the project JSON.
+Transductor → i40 → convertidor → xarxa → pantalla	Transductor → i40 → convertidor → red → pantalla	Transducer → i40 → converter → network → display
+Font de posició: falta confirmar la interfície de la VHF	Fuente de posición: falta confirmar interfaz VHF	Position source: confirm the VHF interface
+La posició arriba de la font GNSS, no de l’i40	La posición llega de GNSS, no del i40	Position comes from GNSS, not from the i40
+Radiofreqüència: antena, baixant i emissora	Radiofrecuencia: antena, bajante y emisora	Radio frequency: antenna, downlead and radio
+Alimentació permanent: la sentina no depèn del general	Alimentación permanente: la sentina no depende del general	Permanent supply: bilge does not depend on the main switch
+Retorn de serveis pel shunt; fil Vbatt+ protegit	Retorno de servicios por shunt; hilo Vbatt+ protegido	House return through shunt; protected Vbatt+ sense wire
+Central de gas autònoma amb alimentació permanent	Central de gas autónoma con alimentación permanente	Independent gas alarm on permanent supply
+12 V → convertidor → Raspberry i hub → dues webcams USB	12 V → convertidor → Raspberry y hub → dos webcams USB	12 V → converter → Raspberry Pi and hub → two USB webcams
+Port → primari → aïllament → secundari protegit → carregador	Puerto → primario → aislamiento → secundario protegido → cargador	Shore → primary → isolation → protected secondary → charger
+Entrada AC amb PE continu i carregador a serveis	Entrada AC con PE continuo y cargador a servicios	AC input with continuous PE and house charger
+equips ·	equipos ·	devices ·
+connexions funcionals	conexiones funcionales	functional connections
+connexions	conexiones	connections
+dibuix orientatiu	dibujo orientativo	illustrative drawing
+CONNEXIÓ / PASSIU	CONEXIÓN / PASIVO	CONNECTION / PASSIVE
+ALIMENTACIÓ DISPONIBLE	ALIMENTACIÓN DISPONIBLE	POWER AVAILABLE
+INACTIU / SENSE ALIMENTACIÓ	INACTIVO / SIN ALIMENTACIÓN	INACTIVE / NO POWER
+Dibuix orientatiu de	Dibujo orientativo de	Illustrative drawing of
+Il·lustració orientativa · no és un pinout	Ilustración orientativa · no es un pinout	Illustrative drawing · not a pinout
+ / EQUIP	 / EQUIPO	 / DEVICE
+Perfil:	Perfil:	Profile:
+AIS integrat: Ray73 en el perfil Raymarine; receptor, no transceptor.	AIS integrado: Ray73 en perfil Raymarine; receptor, no transceptor.	Built-in AIS: Ray73 in the Raymarine profile; receiver, not transceiver.
+PORTS I BORNS	PUERTOS Y BORNES	PORTS AND TERMINALS
+CONNEXIONS · TOCA’N UNA	CONEXIONES · TOCA UNA	CONNECTIONS · TAP ONE
+Cap connexió activa en aquest perfil.	Ninguna conexión activa en este perfil.	No active connection in this profile.
+CONNEXIÓ	CONEXIÓN	CONNECTION
+ · pas	 · paso	 · step
+EXTREM A ·	EXTREMO A ·	END A ·
+EXTREM B ·	EXTREMO B ·	END B ·
+Connector / adaptador	Conector / adaptador	Connector / adapter
+Cable	Cable	Cable
+Protecció i condicions	Protección y condiciones	Protection and conditions
+Veure 	Ver 	View 
+Notes del teu muntatge	Notas de tu montaje	Your installation notes
+Model, referència, ubicació, verificació pendent…	Modelo, referencia, ubicación, verificación pendiente…	Model, reference, location, verification pending…
+Desat localment en aquest navegador. Exporta JSON per conservar-ne una còpia.	Guardado localmente en este navegador. Exporta JSON para conservar una copia.	Saved locally in this browser. Export JSON to keep a copy.
+TRANSDUCTOR · i40	TRANSDUCTOR · i40	TRANSDUCER · i40
+Pales d’1/8″ indicades al manual. Aquest és el mapa de funcions del transductor, no un pinout de SeaTalk. Utilitza la numeració i el dibuix posterior del teu instrument.	Palas de 1/8″ según manual. Este es el mapa funcional del transductor, no el pinout SeaTalk. Usa la numeración y dibujo posterior de tu instrumento.	1/8″ spades as specified in the manual. This maps transducer functions, not SeaTalk pins. Use your instrument's terminal numbering and rear drawing.
+ANOTA I ESTIMA LA CAIGUDA DC	ANOTA Y ESTIMA LA CAÍDA DC	RECORD AND ESTIMATE DC VOLTAGE DROP
+Llargada d’anada · m	Longitud de ida · m	One-way length · m
+Corrent · A	Corriente · A	Current · A
+Secció · mm²	Sección · mm²	Cross-section · mm²
+Tensió · V	Tensión · V	Voltage · V
+Protecció prevista · pendent de validar	Protección prevista · pendiente de validar	Planned protection · awaiting validation
+Tipus, calibre i poder de tall	Tipo, calibre y capacidad de corte	Type, rating and interrupt capacity
+ΔV = 2 × L × I × 0,0175 / S. Coure a 20 °C, anada i tornada iguals; sense resistència de connexions. No dimensiona ampacitat, arrencada ni proteccions.	ΔV = 2 × L × I × 0,0175 / S. Cobre a 20 °C, ida y vuelta iguales; sin resistencia de conexiones. No dimensiona ampacidad, arranque ni protecciones.	ΔV = 2 × L × I × 0.0175 / S. Copper at 20 °C, equal outgoing/return cables; excludes connection resistance. Does not size ampacity, starting current or protection.
+Omple llargada, corrent i secció per estimar la caiguda.	Completa longitud, corriente y sección para estimar la caída.	Enter length, current and cross-section to estimate voltage drop.
+Caiguda estimada:	Caída estimada:	Estimated voltage drop:
+dissipació	disipación	dissipation
+No és una validació del cable.	No es una validación del cable.	This does not validate the cable.
+Transformador marí: PE de port i PE de bord separats a flotació. El secundari té referència N′–PE i diferencial propis. El soft-start no substitueix un SPD ni regula la tensió.	Transformador marino: PE de puerto y barco separados a flote. El secundario tiene referencia N′–PE y diferencial propios. Soft-start no sustituye SPD ni regula tensión.	Marine transformer: shore and vessel PE are separate afloat. The secondary has its own N′–PE reference and RCD. Soft-start does not replace an SPD or regulate voltage.
+Connexió directa amb aïllador galvànic al PE. No és un transformador ni una protecció de sobretensions.	Conexión directa con aislador galvánico en PE. No es transformador ni protección de sobretensiones.	Direct connection with a galvanic isolator in PE. This is not a transformer or surge protector.
+Connexió directa: PE continu entre port i bord; sense aïllament galvànic afegit.	Conexión directa: PE continuo entre puerto y barco; sin aislamiento galvánico añadido.	Direct connection: continuous PE from shore to vessel; no added galvanic isolation.
+amb alimentació	con alimentación	powered
+general obert	general abierto	main switch open
+Sentina:	Sentina:	Bilge:
+bomba activada	bomba activada	pump active
+aturada	parada	stopped
+funciona amb el general OFF	funciona con el general OFF	works with main switch OFF
+Alarma de gas:	Alarma de gas:	Gas alarm:
+alimentació permanent	alimentación permanente	permanent supply
+no instal·lada	no instalada	not installed
+La lògica mostra alimentació disponible; no simula detecció ni certifica l’alarma.	La lógica muestra alimentación disponible; no simula detección ni certifica la alarma.	The logic shows available power; it does not simulate detection or certify the alarm.
+Raspberry i webcams:	Raspberry y webcams:	Raspberry Pi and webcams:
+inactius	inactivos	inactive
+Fonts de càrrega habilitades:	Fuentes de carga habilitadas:	Enabled charging sources:
+carregador de port	cargador de puerto	shore charger
+cap	ninguna	none
+Connexió disponible; no es calcula la potència, el corrent real ni la regulació.	Conexión disponible; no calcula potencia, corriente real ni regulación.	Connection available; power, actual current and regulation are not calculated.
+VHF pendent	VHF pendiente	VHF unconfirmed
+VHF en xarxa	VHF en red	Networked VHF
+sense AIS	sin AIS	no AIS
+AIS integrat	AIS integrado	built-in AIS
+Dibuix esquemàtic de reconeixement, sense pinout	Dibujo esquemático de reconocimiento, sin pinout	Schematic recognition drawing, not a pinout
+Obre ↗	Abre ↗	Open ↗
+Components presents al perfil	Componentes presentes en el perfil	Components in this profile
+Blocs funcionals: un bloc pot agrupar diverses peces. Confirmar contingut dels kits abans de comprar cables o terminadors duplicats.	Bloques funcionales: un bloque puede agrupar varias piezas. Comprueba los kits antes de comprar cables o terminadores duplicados.	Functional blocks may group several parts. Check kit contents before purchasing duplicate cables or terminators.
+m anada	m ida	m one-way
+protecció prevista	protección prevista	planned protection
+Prova AUTO, aigua a la sentina i general de serveis OFF.	Prueba AUTO, agua en sentina y general de servicios OFF.	Try AUTO, water in bilge and house main switch OFF.
+Activa aquest equip a la configuració per seguir-ne el recorregut.	Activa este equipo en la configuración para seguir su recorrido.	Enable this equipment in configuration to follow its route.
+El projecte supera els 2 MB.	El proyecto supera los 2 MB.	Project exceeds 2 MB.
+Versió de projecte no compatible.	Versión de proyecto no compatible.	Unsupported project version.
+Projecte importat.	Proyecto importado.	Project imported.
+No s’ha importat:	No se ha importado:	Import failed:
+Publica l’app amb HTTPS o executa-la a localhost.	Publica la app con HTTPS o ejecútala en localhost.	Publish the app over HTTPS or run it on localhost.
+Comprovació feta. Si hi ha una versió nova, es carregarà en actualitzar la pàgina.	Comprobación hecha. Si hay nueva versión, se cargará al actualizar la página.	Check complete. A new version will load when you refresh the page.
+● Disponible fora de línia	● Disponible sin conexión	● Available offline
+Fora de línia: cal HTTPS o localhost	Sin conexión: requiere HTTPS o localhost	Offline mode needs HTTPS or localhost
+Navegador sense suport PWA	Navegador sin soporte PWA	Browser does not support PWA
+Falta el model de VHF: encara no es pot donar per resolta la connexió de dades ni el connector RF.	Falta modelo VHF: no se puede dar por resuelta la conexión de datos ni el conector RF.	VHF model is missing: the data connection and RF connector cannot yet be confirmed.
+AIS integrat: confirmar que la VHF triada disposa de receptor AIS i sortida de dades.	AIS integrado: confirmar que la VHF tiene receptor AIS y salida de datos.	Built-in AIS: confirm the radio has an AIS receiver and data output.
+En aquest perfil cal una Ray73 per tenir receptor AIS integrat; Ray53 i Ray63 no en tenen.	Este perfil necesita Ray73 para AIS integrado; Ray53 y Ray63 no lo tienen.	This profile needs a Ray73 for built-in AIS reception; Ray53 and Ray63 do not have it.
+Cal configurar la passarel·la amb sortida de posició, sentències acceptades i baud de la VHF.	Configura la pasarela con salida de posición, sentencias admitidas y baud de la VHF.	Configure gateway position output, accepted sentences and the radio's baud rate.
+L’i40 comparteix instrumentació; no proporciona la posició GPS que necessita DSC.	El i40 comparte instrumentación; no proporciona posición GPS para DSC.	The i40 shares instrument data; it does not provide the GPS position required by DSC.
+Introdueix valors vàlids: secció i tensió positives; llargada i corrent no negatius.	Introduce valores válidos: sección y tensión positivas; longitud y corriente no negativas.	Enter valid values: positive cross-section and voltage; non-negative length and current.
+El projecte ha de ser un objecte JSON.	El proyecto debe ser un objeto JSON.	Project must be a JSON object.
+Opció no vàlida:	Opción no válida:	Invalid option:
+Valor booleà no vàlid:	Valor booleano no válido:	Invalid boolean value:
+Tria transformador d’aïllament o aïllador galvànic: no tots dos en aquest esquema.	Elige transformador de aislamiento o aislador galvánico, no ambos en este esquema.	Choose an isolation transformer or galvanic isolator, not both in this diagram.
+Nom de projecte no vàlid.	Nombre de proyecto no válido.	Invalid project name.
+Valor de cable no vàlid:	Valor de cable no válido:	Invalid cable value:
+Codi	Código	ID
+Xarxa	Red	Network
+Origen	Origen	Source
+Port A	Puerto A	Port A
+Destí	Destino	Destination
+Port B	Puerto B	Port B
+Connector	Conector	Connector
+Protecció	Protección	Protection
+Mides anotades	Medidas anotadas	Recorded dimensions
+Notes	Notas	Notes
+Atles interactiu del circuit elèctric d’un veler: bateries, connectors, Raymarine i40, VHF, AIS, sentina i 230 V.	Atlas interactivo de electricidad de un velero: baterías, conectores, Raymarine i40, VHF, AIS, sentina y 230 V.	Interactive yacht electrical atlas: batteries, connectors, Raymarine i40, VHF, AIS, bilge and 230 V.
+Instrument Raymarine	Instrumento Raymarine	Raymarine instrument
+
+Cablejat elèctric · Veler	Cableado eléctrico · Velero	Electrical wiring · Yacht
+Cablejat elèctric, inici	Cableado eléctrico, inicio	Electrical wiring, home
+Cablejat elèctric	Cableado eléctrico	Electrical wiring
+Cablejat elèctric / Veler	Cableado eléctrico / Velero	Electrical wiring / Yacht

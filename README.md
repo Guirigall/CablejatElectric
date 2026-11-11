@@ -90,11 +90,17 @@ Open the HTTPS app URL. On Android: Chrome → ⋮ → **Install app** or **Add 
 
 Works offline once the PWA is prepared; external manuals need Internet. Unknown wire sizes remain pending. This functional atlas is not a certified installation plan.
 
-## Novetats v1.8 / What's new in v1.8
+## Novetats v1.8 / Novedades v1.8 / What's new in v1.8
 
 - Esquema: botó ⤢ per veure tota la xarxa d’un cop, pessic amb dos dits, Ctrl + roda (o pessic del trackpad), arrossegar amb el ratolí, doble clic per apropar-se i centrat automàtic de l’element triat. / Diagram: ⤢ shows the whole network, two-finger pinch, Ctrl + wheel (or trackpad pinch), mouse drag, double-click to zoom in and automatic centring on the selected item.
 - Mòbil: llista de connexions en targetes i capçalera més compacta. / Mobile: connection list as cards and a more compact header.
 - El traçat de les altres xarxes es calcula en segon pla (`route-worker.js`): canviar a 12 V passa d’uns 1,4 s a uns 0,2 s en un mòbil lent. / Other networks are routed in the background: switching to 12 V drops from about 1.4 s to 0.2 s on a slow phone.
+
+### Español · Novedades v1.8
+
+- Esquema: el botón ⤢ muestra toda la red; admite pellizco con dos dedos, Ctrl + rueda (o pellizco del panel táctil), arrastre con el ratón, doble clic para acercar y centrado automático del elemento seleccionado.
+- Móvil: lista de conexiones en tarjetas y cabecera más compacta.
+- El trazado de las otras redes se calcula en segundo plano (`route-worker.js`). En la medición de referencia en un móvil lento, cambiar a 12 V pasó de unos 1,4 s a unos 0,2 s.
 
 ## Desenvolupament / Development
 

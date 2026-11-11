@@ -3787,6 +3787,14 @@ export default {
   "es": "Cableado eléctrico / Velero",
   "en": "Electrical wiring / Yacht"
  },
+ "Pessiga amb dos dits per fer zoom; ⤢ mostra tot l’esquema.": {
+  "es": "Pellizca con dos dedos para hacer zoom; ⤢ muestra todo el esquema.",
+  "en": "Pinch with two fingers to zoom; ⤢ shows the whole diagram."
+ },
+ "Ctrl + roda per fer zoom, arrossega per moure’t; ⤢ mostra tot l’esquema.": {
+  "es": "Ctrl + rueda para hacer zoom, arrastra para moverte; ⤢ muestra todo el esquema.",
+  "en": "Ctrl + wheel to zoom, drag to move around; ⤢ shows the whole diagram."
+ },
  "Rotavecta de vent": {
   "es": "Rotavecta de viento",
   "en": "Wind Rotavecta"

@@ -13,7 +13,7 @@ test('Instal·lació completa, cache pròpia, recuperació offline i confirmaci�
  const context={self:{registration:{scope},addEventListener:(n,fn)=>events[n]=fn,skipWaiting:async()=>{},clients:{claim:async()=>{}}},caches:{open:async()=>cache,keys:async()=>['another-app',`bord:${scope}:old`,`bord:${scope}:${sw.match(/const VERSION='([^']+)'/)[1]}`],delete:async k=>deleted.push(k)},URL,Response,fetch:async()=>{throw Error('offline')}};
  vm.createContext(context);vm.runInContext(sw,context);
  async function run(name,extra={}){let promise;events[name]({waitUntil:p=>promise=p,...extra});await promise;}
- await run('install');assert.equal(store.size,18+3*artFiles.length);
+ await run('install');assert.equal(store.size,19+3*artFiles.length);assert.ok(store.has('./route-worker.js'),'El worker del traçat ha de funcionar fora de línia');
  await run('activate');assert.deepEqual(deleted,[`bord:${scope}:old`]);
  await run('message',{data:'VERIFY_OFFLINE',source:{postMessage:m=>messages.push(m)}});assert.deepEqual(messages,['OFFLINE_READY']);
  let promise;events.fetch({request:{url:scope+'app.js',method:'GET',mode:'cors'},respondWith:p=>promise=p});assert.ok((await (await promise).text()).includes('showDetail'));
